@@ -18,7 +18,7 @@ import Showcase1 from "./showcase1";
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/ghallab",
     element: (
       <>
         <NavBar />
