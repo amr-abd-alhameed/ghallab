@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/ghallab/static/css/main.43e937a2.css",
-    "main.js": "/ghallab/static/js/main.a2b08643.js",
+    "main.js": "/ghallab/static/js/main.503f4601.js",
     "index.html": "/ghallab/index.html",
     "main.43e937a2.css.map": "/ghallab/static/css/main.43e937a2.css.map",
-    "main.a2b08643.js.map": "/ghallab/static/js/main.a2b08643.js.map"
+    "main.503f4601.js.map": "/ghallab/static/js/main.503f4601.js.map"
   },
   "entrypoints": [
     "static/css/main.43e937a2.css",
-    "static/js/main.a2b08643.js"
+    "static/js/main.503f4601.js"
   ]
 }
