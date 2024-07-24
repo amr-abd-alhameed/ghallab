@@ -1,5 +1,8 @@
 import { FaAngleDown, FaBars, FaShoppingCart } from "react-icons/fa";
 import "./navbar.css";
+import Logo from "../../assets/images/Homyz-logo.png";
+import Logo2 from "../../assets/images/Homyz-logo2.png";
+
 import Button from "../buttons-component/solidbutton";
 import { Link } from "react-router-dom";
 import { useContext, useEffect, useState } from "react";
@@ -20,7 +23,7 @@ const NavBar = ({ navBar2, showCase1Page }) => {
   const { cartItems, setCartItems, addToCart, modal, setModal } =
     useContext(CartContext);
   const [whenScroll, setWhenScroll] = useState("bg-transparent");
-  const [logo, setlogo] = useState("/Homyz-logo.png");
+  const [logo, setlogo] = useState(Logo);
   const [textColor, setTextColor] = useState("text-white");
   const [showcaseDropDown, setShowcaseDropDown] = useState(false);
   const [viewSideNav, setViewSideNav] = useState(false);
@@ -33,12 +36,12 @@ const NavBar = ({ navBar2, showCase1Page }) => {
     const changeColor = () => {
       if (window.scrollY >= 90) {
         setWhenScroll("bg-white");
-        setlogo("/Homyz-logo2.png");
+        setlogo(Logo2);
         setTextColor("text-black");
       } else {
         setWhenScroll("transparent");
         setTextColor("text-white");
-        setlogo("/Homyz-logo.png");
+        setlogo(Logo);
       }
     };
     window.addEventListener("scroll", changeColor);
