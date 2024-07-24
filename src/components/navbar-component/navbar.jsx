@@ -149,7 +149,7 @@ const NavBar = ({ navBar2, showCase1Page }) => {
                                     }}
                                     className="text-lg w-fit hover:text-black transition-all duration-300 cursor-pointer text-red-500 hover mt-3"
                                   >
-                                    remove
+                                    إزالة
                                   </p>
                                 </div>
                               </div>
@@ -213,7 +213,7 @@ const NavBar = ({ navBar2, showCase1Page }) => {
               </div>
             ) : (
               <div className="p-20 flex justify-center items-center">
-                <p className="text-xl">No items found.</p>
+                <p className="text-xl">لا توجد اماكن مفضلة</p>
               </div>
             )}
           </div>
@@ -240,7 +240,7 @@ const NavBar = ({ navBar2, showCase1Page }) => {
             <img
               src={navBar2 ? "/Homyz-logo2.png" : logo}
               className="w-44 max-lg:w-36"
-              alt="Homyz-logo"
+              alt="صورة الشعار"
             />
           </Link>
           <ul
@@ -257,14 +257,14 @@ const NavBar = ({ navBar2, showCase1Page }) => {
               className="hover:text-red-500 transition-all"
               to="/"
             >
-              Home
+              الرئيسية
             </Link>
             <Link
               onClick={scrollToTop}
               className="hover:text-red-500 transition-all"
               to="/Services"
             >
-              Our Services
+              خدماتُنْا
             </Link>
             <div className="showcase-menu cursor-pointer hover:text-red-500 transition-all relative">
               Show Cases
@@ -307,7 +307,7 @@ const NavBar = ({ navBar2, showCase1Page }) => {
               className="hover:text-red-500 transition-all"
               to="/about"
             >
-              About
+              تعرّف علينا
             </Link>
             <div
               className="relative cursor-pointer  transition-all"
@@ -332,7 +332,7 @@ const NavBar = ({ navBar2, showCase1Page }) => {
 
             <Link onClick={scrollToTop} to="/contact">
               <Button
-                content={"Contact Us"}
+                content={"تواصل معنا"}
                 fontSize={"text-xl"}
                 fontWeight={""}
                 padding={"px-5  py-2"}
@@ -421,7 +421,7 @@ const NavBar = ({ navBar2, showCase1Page }) => {
             to="/"
             className="hover:text-red-500 transition-all"
           >
-            Home
+            الرئسية
           </Link>
           <Link
             onClick={() => {
@@ -431,7 +431,7 @@ const NavBar = ({ navBar2, showCase1Page }) => {
             to="/services"
             className="hover:text-red-500 transition-all"
           >
-            Our Services
+            خدماتُنْا
           </Link>
           <div className="relative">
             <div
@@ -484,7 +484,7 @@ const NavBar = ({ navBar2, showCase1Page }) => {
                 to={"/about"}
                 className="hover:text-red-500 transition-all w-full block"
               >
-                About
+                تعرّف علينا
               </Link>
               <Link
                 onClick={() => {
@@ -495,7 +495,7 @@ const NavBar = ({ navBar2, showCase1Page }) => {
                 className="hover:text-red-500 transition-all w-full block"
               >
                 <Button
-                  content={"Contact Us"}
+                  content={"تواصل معنا"}
                   fontSize={""}
                   padding={"py-[6px] px-3"}
                   furtherClasses={" mt-4"}
