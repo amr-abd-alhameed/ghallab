@@ -15,6 +15,11 @@ import { scrollToTop } from "../../constants/scrollToTop";
 import { partnerBrands } from "../../constants/partnerBrands";
 import { useToast } from "@chakra-ui/react";
 
+import heroBg from "../../assets/images/hero-bg-image.jpg";
+import image1 from "../../assets/images/grafton.png";
+import image2 from "../../assets/images/lighthouse.png";
+import image3 from "../../assets/images/tundratown.png";
+
 const HomePage = () => {
   const navigate = useNavigate();
   const toast = useToast();
@@ -40,7 +45,10 @@ const HomePage = () => {
   };
   return (
     <div className=" w-full overflow-hidden">
-      <div className="  flex  pt-36 pb-20 bg-top bg-no-repeat bg-cover  ">
+      <div
+        style={{ backgroundImage: "url(" + heroBg + ")" }}
+        className={`  flex  pt-36 pb-20 bg-top bg-no-repeat bg-cover  `}
+      >
         <motion.div
           initial="initial"
           whileInView="animate"
@@ -53,14 +61,13 @@ const HomePage = () => {
             variants={animationVariants.fadeLeft}
             className="text-6xl max-lg:mx-auto font-semibold max-sm:text-4xl max-w-lg "
           >
-            Discover Most Suitable Property
+            اكتشف أفضل المقابر في مصر
           </motion.h1>
           <motion.p
             variants={animationVariants.fadeLeft}
             className="text-xl max-lg:mx-auto max-w-md  "
           >
-            Our mission is to engage in issues that are of concern to
-            individuals
+            مقابر مُختارة، حلول مُيسرة، الشفافية والثقة في كل خطوة
           </motion.p>
           <motion.div
             variants={animationVariants.fadeLeft}
@@ -81,7 +88,7 @@ const HomePage = () => {
               type="text"
             />
             <Button
-              content={"Search"}
+              content={"ابحث "}
               fontSize={"text-xl"}
               padding={"px-5  py-2"}
               furtherClasses={"absolute right-2"}
@@ -95,26 +102,28 @@ const HomePage = () => {
           >
             <div className="flex gap-12">
               <div className="flex flex-col gap-4">
-                <h2 className="text-4xl title-font font-bold">19K+</h2>
-                <p className="text-lg">Premium houses</p>
+                <h2 className="text-3xl title-font font-bold"> سبع مواقع</h2>
+                <p className="text-xl font-bold"> مختلفة في انحاء مصر</p>
               </div>
               <div className="flex flex-col gap-4">
-                <h2 className="text-4xl title-font font-bold">5000+</h2>
-                <p className="text-lg">Premium houses</p>
+                <h2 className="text-3xl title-font font-bold">أكثر من ألف</h2>
+                <p className="text-xl font-bold"> مقبرة في متناولك</p>
               </div>
             </div>
             <div className="flex gap-12 max-sm:flex-wrap  justify-center">
               <div className="flex justify-start items-center gap-2">
-                <img className="w-9" src="/grafton.png" alt="img" />
-                <h2 className="text-2xl">Grafton</h2>
+                <img className="w-9" src={image1} alt="img" />
+                <h2 className="text-2xl">
+                  <span> 6 </span>اكتوبر
+                </h2>
               </div>
               <div className="flex justify-start items-center gap-2">
-                <img className="w-9" src="/lighthouse.png" alt="img" />
-                <h2 className="text-2xl">Lighthouse</h2>
+                <img className="w-9" src={image2} alt="img" />
+                <h2 className="text-2xl">الرحاب</h2>
               </div>
               <div className="flex justify-start items-center gap-2">
-                <img className="w-9" src="/tundratown.png" alt="img" />
-                <h2 className="text-2xl">Tundratown</h2>
+                <img className="w-9" src={image3} alt="img" />
+                <h2 className="text-2xl">السادات</h2>
               </div>
             </div>
           </motion.div>
