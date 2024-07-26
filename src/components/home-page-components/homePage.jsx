@@ -16,9 +16,14 @@ import { partnerBrands } from "../../constants/partnerBrands";
 import { useToast } from "@chakra-ui/react";
 
 import heroBg from "../../assets/images/hero-bg-image.jpg";
+
 import image1 from "../../assets/images/grafton.png";
 import image2 from "../../assets/images/lighthouse.png";
 import image3 from "../../assets/images/tundratown.png";
+
+import icon1 from "../../assets/images/icons/reliability.png";
+import icon2 from "../../assets/images/icons/communication.png";
+import icon3 from "../../assets/images/icons/quality-first.png";
 
 const HomePage = () => {
   const navigate = useNavigate();
@@ -145,8 +150,10 @@ const HomePage = () => {
               viewport={{ once: true, amount: 0.2 }}
             >
               <h2 className="text-5xl max-md:text-4xl font-bold title-font">
-                We build quality real estate projects
-                <span className=" text-red-500 title-font "> since 1998</span>
+                نحن الرواد في تجارة المقابر <br />
+                <span className=" text-red-500 title-font mt-4 block">
+                  منذ 1998
+                </span>
               </h2>
             </motion.div>
           </div>
@@ -158,14 +165,14 @@ const HomePage = () => {
               viewport={{ once: true, amount: 0.2 }}
             >
               <p className="text-xl">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum
-                itaque nesciunt similique dolore illum eaque repellat eligendi
-                nemo odit fugit in, impedit ad excepturi architecto dolores
-                quaerat accusantium! Sapiente, repellendus!
+                ابحث عن انسب المقابر في موقع غللاب، الموقع الأفضل لاختيار مقبرة
+                مميزة في مصر. لدينا مجموعة متنوعة من المقابر الفاخرة والمتوسطة
+                بسعر مناسب، مع ضمان راحة بال تامة في اختيار مأوى لِمن تُحب. ابحث
+                عن مكان مميز لذكرى مميزة، استكشف موقع غللاب الآن!
               </p>
               <Link onClick={scrollToTop} to={"/about"}>
                 <Button
-                  content={"About Us"}
+                  content={"تعرف علينا"}
                   fontSize={"text-xl"}
                   padding={"px-5  py-2"}
                   furtherClasses={"mt-8"}
@@ -189,19 +196,22 @@ const HomePage = () => {
             className="w-1/3 max-lg:w-full max-lg:text-center flex flex-col gap-2 items-start max-lg:items-center"
           >
             <h2 className="text-5xl max-md:text-4xl font-bold title-font">
-              What we do
+              ليه تشتري من عندنا تحديدا
             </h2>
             <p className="text-xl">
-              Lorem ipsum dolor sit amet consectetur. Malesuada vehicula netus
-              urna in elit amet blandit enim lacinia. Tellus leo felis et vel
-              eget maecenas.
+              <strong> الشفافية والثقة: </strong>
+              نُقدم لك كل المعلومات بشكل واضح ، ونضمن لك صفقات عادلة وآمنة.
+              <br /> <strong>الخدمة المُتميزة: </strong> نُقدم لك دعم فني
+              وإرشادات ، لضمان راحة بالك في كل خطوة. :<br />{" "}
+              <strong>الموقف المتميز</strong> مقابرنا تقع في مواقع مميزة و هادئة
+              ، لضمان راحة بالت الأبدية لِمن تُحب
             </p>
             <Link onClick={scrollToTop} to={"/about"}>
               <button
                 style={{ borderWidth: 1.5, borderRadius: 4 }}
                 className="bg-transparent  text-black border-red-500 text-xl px-5 py-2 duration-300 hover:bg-red-500 hover:text-white transition-all mt-5 max-md:mt-3"
               >
-                About Us
+                تعرف علينا
               </button>
             </Link>
           </motion.div>
@@ -215,19 +225,19 @@ const HomePage = () => {
           >
             <div className="flex flex-col gap-7 ">
               <WhatWeDoCard
-                iconSrc={"/icons/reliability.png"}
-                iconAlt={"reliability"}
-                title={"Reliability"}
+                iconSrc={icon1}
+                iconAlt={"المصداقية"}
+                title={"المصداقية"}
                 desc={
-                  "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam distinctio, nemo libero deleniti quibusdam quia!"
+                  " نحن نقدم صور من قلب الواقع وليست صور وهمية ، مع امكانية زيارة المقابر قبل الشراء"
                 }
               />
               <WhatWeDoCard
-                iconSrc={"/icons/communication.png"}
-                iconAlt={"communication"}
-                title={"communication"}
+                iconSrc={icon2}
+                iconAlt={"رضا العميل"}
+                title={"رضا العميل"}
                 desc={
-                  "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam distinctio, nemo libero deleniti quibusdam quia!"
+                  "نهتم بما يهتم به عملاائنا فنقدم لهم باقة مميزة من المقابر المتنوعة في جميع ارجاء المعمورة واسعار في متناول الجميع"
                 }
               />
             </div>
@@ -237,11 +247,11 @@ const HomePage = () => {
                 className="max-md:hidden rounded-lg w-80 bg-gradient-to-t from-white to-transparent"
               ></div>
               <WhatWeDoCard
-                iconSrc={"/icons/quality-first.png"}
-                iconAlt={"quality-first"}
-                title={"Quality First"}
+                iconSrc={icon3}
+                iconAlt={"التميز"}
+                title={"التميز"}
                 desc={
-                  "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam distinctio, nemo libero deleniti quibusdam quia!"
+                  " الاختيار المُتنوع: نُقدم مجموعة واسعة من المقابر بأسعار مُناسبة ، لتناسب كل الأذواق والميزانيات التسهيلات السهلة: موقعنا الكتروني مُريح وواضح، يساعدك على اختيار المقبرة المناسبة بكل بساطة"
                 }
               />
               <div
@@ -259,7 +269,7 @@ const HomePage = () => {
             viewport={{ once: true, amount: 0.2 }}
             className="text-5xl max-md:text-4xl font-semibold text-center"
           >
-            Exclusive Properties
+            مقابر مختارة، مواقع متميزة
           </motion.h2>
           <div className="flex flex-col gap-5 mt-10 max-sm:mt-8">
             <div className=" flex gap-5 max-lg:flex-col">
@@ -344,14 +354,14 @@ const HomePage = () => {
               variants={animationVariants.fadeLeft}
               className="text-5xl max-md:text-4xl font-semibold"
             >
-              We use Real Estate to show our appreciation of the world.
+              لا تقلق أبدًا حول مستقبل أحبائك ، ونُقدم لك الراحة والتكريم الّذي
+              يستحقونه
             </motion.h1>
             <motion.p
               variants={animationVariants.fadeLeft}
-              className="text-2xl"
+              className="text-3xl"
             >
-              We provide equity and debt capital globally to back projects that
-              make an impact.
+              انتهز الفرصة واستكشف عالم الراحة والتكريم معنا!
             </motion.p>
             <motion.div
               variants={animationVariants.fadeLeft}
@@ -359,35 +369,27 @@ const HomePage = () => {
             >
               <div className="flex flex-col max-lg:justify-center max-lg:items-center">
                 <h2 className="title-font text-red-500 text-5xl max-md:text-4xl font-semibold">
-                  8
+                  26
                 </h2>
-                <p className="text-xl">
-                  Years of seccessful experience in real estate
-                </p>
+                <p className="text-xl">عاما من الخبرة </p>
               </div>
               <div className="flex flex-col max-lg:justify-center max-lg:items-center">
                 <h2 className="title-font text-red-500 text-5xl max-md:text-4xl font-semibold">
-                  8
+                  +1000
                 </h2>
-                <p className="text-xl">
-                  Years of seccessful experience in real estate
-                </p>
+                <p className="text-xl">عملية بيع ناجحة </p>
               </div>
               <div className="flex flex-col max-lg:justify-center max-lg:items-center">
                 <h2 className="title-font text-red-500 text-5xl max-md:text-4xl font-semibold">
-                  8
+                  740
                 </h2>
-                <p className="text-xl">
-                  Years of seccessful experience in real estate
-                </p>
+                <p className="text-xl">زبونا راضيا واكثر </p>
               </div>
               <div className="flex flex-col max-lg:justify-center max-lg:items-center">
                 <h2 className="title-font text-red-500 text-5xl max-md:text-4xl font-semibold">
-                  8
+                  أنت
                 </h2>
-                <p className="text-xl">
-                  Years of seccessful experience in real estate
-                </p>
+                <p className="text-xl">زبوننا القادم </p>
               </div>
             </motion.div>
             <motion.div variants={animationVariants.fadeLeft}>
