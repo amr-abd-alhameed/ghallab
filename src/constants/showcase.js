@@ -1,7 +1,7 @@
 export const showCase = [
   {
     id: 1,
-    city: "Karachi",
+    city: "اكتوبر 6",
     shortDescription:
       "Karachi 'The City of Lights', the vibrant metropolis on the shores of the Arabian Sea, is a melting pot of diverse cultures, bustling with energy.",
     description:
@@ -18,7 +18,7 @@ export const showCase = [
   },
   {
     id: 2,
-    city: "Islamabad",
+    city: "السادات",
     shortDescription:
       "Islamabad, the serene capital of Pakistan, is nestled among picturesque hills, renowned for its well-planned infrastructure and green spaces.",
     description:
@@ -35,7 +35,7 @@ export const showCase = [
   },
   {
     id: 3,
-    city: "Lahore",
+    city: "الرحاب",
     shortDescription:
       "Lahore, the cultural heart of Pakistan, captivates visitors with its grand Mughal architecture, making it a city that embraces history, art, and a vibrant zest for life.",
     description:
@@ -52,7 +52,7 @@ export const showCase = [
   },
   {
     id: 4,
-    city: "Quetta",
+    city: "التجمع",
     shortDescription:
       "Quetta, the captivating city nestled in the rugged mountains of Balochistan, enchants with its breathtaking natural beauty and landscapes.",
     description:

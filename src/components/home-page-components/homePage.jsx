@@ -395,7 +395,7 @@ const HomePage = () => {
             <motion.div variants={animationVariants.fadeLeft}>
               <Link onClick={scrollToTop} to={"/contact"}>
                 <Button
-                  content={"Get In Touch"}
+                  content={"احجز مقبرتك الآن"}
                   padding={"px-6 py-3"}
                   fontSize={"text-xl"}
                 />
@@ -434,7 +434,7 @@ const HomePage = () => {
             viewport={{ once: true, amount: 0.2 }}
             className="text-5xl max-md:text-4xl font-semibold text-center  px-2"
           >
-            Destinations We Love The Most
+            الأماكن الاكثر طلبا{" "}
           </motion.h1>
           <div className="grid grid-cols-4 grid-rows-1 max-lg:grid-cols-2 max-lg:grid-rows-2 max-sm:grid-cols-1 max-sm:grid-rows-4 gap-4 relative mt-10 max-sm:mt-8">
             <img
@@ -477,8 +477,8 @@ const HomePage = () => {
             >
               <ReviewCard
                 imgSrc={"/reviews/jane-cooper.jpg"}
-                title={"Jane Cooper"}
-                from={"Real Estate"}
+                title={"أحمد خالد"}
+                from={"التجمع الأول"}
               />
             </motion.div>
             <motion.div
@@ -487,8 +487,8 @@ const HomePage = () => {
             >
               <ReviewCard
                 imgSrc={"/reviews/robert-fox.jpg"}
-                title={"Robert Fox"}
-                from={"Creative Director"}
+                title={"سعيد الشاذلي"}
+                from={"الشيخ ذايد"}
               />
             </motion.div>
             <motion.div
@@ -497,8 +497,8 @@ const HomePage = () => {
             >
               <ReviewCard
                 imgSrc={"/reviews/marvin-mckinney.jpg"}
-                title={"Marvin Mckinney"}
-                from={"CEO of Bimetrix"}
+                title={"ميار ذكي"}
+                from={"القاهرة الجديدة"}
               />
             </motion.div>
           </motion.div>
@@ -510,7 +510,7 @@ const HomePage = () => {
             className="w-2/4 max-md:w-full max-md:text-center flex flex-col gap-8"
           >
             <h1 className="text-5xl max-md:text-4xl font-semibold">
-              Why do people love homyz
+              ليه الناس تحب تشتري من غللاب{" "}
             </h1>
             <div>
               <Carousel />

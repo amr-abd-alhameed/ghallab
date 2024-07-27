@@ -1,9 +1,10 @@
-import { Button, Input, Textarea, useToast } from "@chakra-ui/react";
-import React, { useState } from "react";
+import { Button, Input, Textarea, useToast } from "@chakra-ui/react";import React, { useState } from "react";
 import { FaFacebookF, FaInstagram, FaTwitter } from "react-icons/fa";
 import axios from "axios";
 import { Link } from "react-router-dom";
 import { scrollToTop } from "../../constants/scrollToTop";
+
+import logo1 from "../../assets/images/Homyz-logo.png";
 
 const Footer = () => {
   const toast = useToast();
@@ -135,14 +136,12 @@ const Footer = () => {
       >
         <div className="flex flex-col items-start h-auto justify-between gap-16 w-2/4 max-lg:w-full pr-10 max-sm:pr-0">
           <div className="flex flex-col text-lg items-start  justify-between gap-10 ">
-            <a href="/">
-              <img src="/Homyz-logo.png" className="w-36" alt="Homyz-logo" />
+            <a href="/ghallab">
+              <img src={logo1} className="w-36" alt="شعار موقع غللاب" />
             </a>
             <p style={{ color: "#696969" }}>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam,
-              pariatur. Fugit dignissimos aut tempora ullam similique minima
-              culpa quod fuga, doloribus expedita, cupiditate sint, nulla
-              distinctio soluta. Aut, sequi quia.
+              مقابر فاخرة، لذكرى مميزة. أفضل المواقع، بأعلى جودة. اختار مأواك
+              النهائي، في مكان خاص.
             </p>
             <div className="flex text-xl justify-start items-center gap-10 text-red-500">
               <Link target="_blank" to={"https://facebook.com"}>
@@ -159,41 +158,43 @@ const Footer = () => {
               <Link
                 onClick={scrollToTop}
                 className="hover:text-red-500 transition-all"
-                to="/"
+                to="/ghallab"
               >
-                Home
+                الرئيسية
               </Link>
               <Link
                 onClick={scrollToTop}
                 className="hover:text-red-500 transition-all"
                 to="/services"
               >
-                Services
+                خدماتُنا
               </Link>
               <Link
                 onClick={scrollToTop}
                 className="hover:text-red-500 transition-all"
                 to="/about"
               >
-                About Us
+                تعرف علينا{" "}
               </Link>
               <Link
                 onClick={scrollToTop}
                 className="hover:text-red-500 transition-all"
                 to="/contact"
               >
-                Contact Us
+                تواصل معنا{" "}
               </Link>
             </ul>
           </div>
-          <p style={{ color: "#696969" }}>© Homyz. All Rights Reserved 2023.</p>
+          <p style={{ color: "#696969" }}>
+            <span>© </span>جميع الحقوق محفوظة لموقع غللاب 2024
+          </p>
         </div>
 
         <div
           id="contact"
           className="w-2/4 max-lg:w-full flex flex-col h-auto justify-between items-start gap-10 "
         >
-          <h1 className="text-3xl text-white">Get in Touch</h1>
+          <h1 className="text-3xl text-white">تواصل معنا</h1>
           <div className="name w-full gap-8 text-white max-sm:flex-col max-sm:gap-10 mt-3 flex">
             <Input
               pl={3}
@@ -202,7 +203,7 @@ const Footer = () => {
               borderColor={"#696969"}
               focusBorderColor="white"
               _placeholder={{ color: "#696969" }}
-              placeholder="First Name"
+              placeholder="الاسم الاول"
               name="firstName"
               maxLength={20}
               value={formData.firstName}
@@ -216,7 +217,7 @@ const Footer = () => {
               borderColor={"#696969"}
               focusBorderColor="white"
               _placeholder={{ color: "#696969" }}
-              placeholder="Last Name"
+              placeholder="اسم العائلة"
               name="lastName"
               maxLength={20}
               value={formData.lastName}
@@ -232,7 +233,7 @@ const Footer = () => {
               borderColor={"#696969"}
               focusBorderColor="white"
               _placeholder={{ color: "#696969" }}
-              placeholder="Email Address"
+              placeholder="البريد الاكتروني"
               name="email"
               maxLength={40}
               value={formData.email}
@@ -248,7 +249,7 @@ const Footer = () => {
               _placeholder={{ color: "#696969" }}
               type="number"
               placeholder="Phone No"
-              name="phoneNo"
+              name="رقم الهاتف"
               value={formData.phoneNo}
               onChange={handleChange}
               autoComplete="off"
@@ -263,7 +264,7 @@ const Footer = () => {
             borderColor={"#696969"}
             focusBorderColor="white"
             _placeholder={{ color: "#696969" }}
-            placeholder="Message"
+            placeholder="اترك رسالتك هنا"
             maxLength={200}
             className="w-full text-white"
             name="message"
@@ -287,7 +288,7 @@ const Footer = () => {
             fontSize={"20px"}
             borderRadius={"4px"}
           >
-            Submit
+            ارسل
           </Button>
         </div>
       </footer>
