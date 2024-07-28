@@ -24,18 +24,18 @@ const ServicesComponent = () => {
           <div className="text-white flex flex-col gap-8 max-md:items-center max-md:text-center">
             <h1 className="text-5xl font-bold">خدماتُنا</h1>
             <p className="text-xl max-w-md">
-              Our mission is to engage in issues that are of concern to
-              individuals
+              مجموعة واسعة من المقابر: بما في ذلك المقابر الفردية، العائلية،
+              والأسرية، والمقابر الخاصة.
             </p>
           </div>
           <div className="flex gap-12 text-white max-md:text-center">
             <div className="flex max-md:items-center  flex-col gap-4">
-              <h2 className="text-4xl title-font font-bold">19K+</h2>
-              <p className="text-lg">Premium houses</p>
+              <h2 className="text-4xl title-font font-bold">2500+</h2>
+              <p className="text-lg">مقبرة متاحة</p>
             </div>
             <div className="flex max-md:items-center flex-col gap-4">
-              <h2 className="text-4xl  title-font font-bold">5000+</h2>
-              <p className="text-lg">Premium houses</p>
+              <h2 className="text-4xl  title-font font-bold">1000+</h2>
+              <p className="text-lg">عملية بيع ناجحة</p>
             </div>
           </div>
         </motion.div>
