@@ -1,4 +1,5 @@
-import React, { useState } from "react";import {
+import React, { useState } from "react";
+import {
   FaCoins,
   FaEnvelope,
   FaMapMarkerAlt,
@@ -20,6 +21,8 @@ import { Button, Input, Textarea, useToast } from "@chakra-ui/react";
 import axios from "axios";
 import { Link } from "react-router-dom";
 import { scrollToTop } from "../../constants/scrollToTop";
+
+import heroBg from "../../../src/assets/images/hero-bg-image.jpg";
 
 const ContactPage = () => {
   const toast = useToast();
@@ -143,7 +146,10 @@ const ContactPage = () => {
 
   return (
     <div className=" w-full overflow-hidden">
-      <div className="  flex  pt-44 max-sm:pt-40 pb-32 bg-top bg-no-repeat bg-cover  ">
+      <div
+        className="  flex  pt-44 max-sm:pt-40 pb-32 bg-top bg-no-repeat bg-cover  "
+        style={{ backgroundImage: "url(" + heroBg + ")" }}
+      >
         <div
           style={{ maxWidth: 1200 }}
           className="mx-auto w-full text-white px-10 max-sm:px-5 flex flex-col max-lg:items-center max-lg:text-center gap-16"
@@ -155,7 +161,7 @@ const ContactPage = () => {
             viewport={{ once: true, amount: 0.2 }}
             className="text-6xl max-lg:mx-auto font-semibold max-sm:text-5xl max-w-lg "
           >
-            Contact Us
+            تواصل معنا
           </motion.h1>
           <motion.div
             initial="initial"
@@ -172,9 +178,9 @@ const ContactPage = () => {
                 <div className="bg-red-500 w-[60px] h-[58px] rounded-md text-xl flex gap-4 justify-center items-center">
                   <FaEnvelope className="text-white" />
                 </div>
-                <h2 className="title-font font-semibold ">Services</h2>
+                <h2 className="title-font font-semibold ">البريد الاكتروني</h2>
               </div>
-              <p>Neque porro quisquam est, qui dolorem ipsum.</p>
+              <p>mohamedghallab12345@gmail.com</p>
             </motion.div>
             <motion.div
               variants={animationVariants.fadeUp}
@@ -184,9 +190,14 @@ const ContactPage = () => {
                 <div className="bg-red-500 w-[60px] h-[58px] rounded-md text-xl flex gap-4 justify-center items-center">
                   <FaCoins className="text-white" />
                 </div>
-                <h2 className="title-font font-semibold ">Pricing</h2>
+                <h2 className="title-font font-semibold ">
+                  الاستفسار عن الاسعار
+                </h2>
               </div>
-              <p>Neque porro quisquam est, qui dolorem ipsum.</p>
+              <p>
+                يمكنكم الاتصال على هذا الرقم
+                <br /> 1010757651
+              </p>
             </motion.div>
             <motion.div
               variants={animationVariants.fadeUp}
@@ -196,9 +207,12 @@ const ContactPage = () => {
                 <div className="bg-red-500 w-[60px] h-[58px] rounded-md text-xl flex gap-4 justify-center items-center">
                   <FaMobileAlt className="text-white" />
                 </div>
-                <h2 className="title-font font-semibold ">Support</h2>
+                <h2 className="title-font font-semibold ">الدعم الفني</h2>
               </div>
-              <p>Neque porro quisquam est, qui dolorem ipsum.</p>
+              <p>
+                يمكنكم التواصل على مدار 24 ساعة على الرقم
+                <br /> 1010757651
+              </p>
             </motion.div>
           </motion.div>
         </div>
