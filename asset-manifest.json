@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/ghallab/static/css/main.43e937a2.css",
-    "main.js": "/ghallab/static/js/main.00821df5.js",
+    "main.js": "/ghallab/static/js/main.6d45efb5.js",
     "static/media/hero-bg-image.jpg": "/ghallab/static/media/hero-bg-image.b4b52759c442b3f5a24f.jpg",
     "static/media/service-hero-bg.jpg": "/ghallab/static/media/service-hero-bg.9f9f75b88df6f3d162bb.jpg",
     "index.html": "/ghallab/index.html",
     "main.43e937a2.css.map": "/ghallab/static/css/main.43e937a2.css.map",
-    "main.00821df5.js.map": "/ghallab/static/js/main.00821df5.js.map"
+    "main.6d45efb5.js.map": "/ghallab/static/js/main.6d45efb5.js.map"
   },
   "entrypoints": [
     "static/css/main.43e937a2.css",
-    "static/js/main.00821df5.js"
+    "static/js/main.6d45efb5.js"
   ]
 }
