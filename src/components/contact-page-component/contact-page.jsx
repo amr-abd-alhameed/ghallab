@@ -24,6 +24,10 @@ import { scrollToTop } from "../../constants/scrollToTop";
 
 import heroBg from "../../../src/assets/images/hero-bg-image.jpg";
 
+import icon1 from "../../assets/images/icons/reliability.png";
+import icon2 from "../../assets/images/icons/communication.png";
+import icon3 from "../../assets/images/icons/quality-first.png";
+
 const ContactPage = () => {
   const toast = useToast();
   const [btnLoader, setBtnLoader] = useState(false);
@@ -459,19 +463,22 @@ const ContactPage = () => {
             className="w-1/3 max-lg:w-full max-lg:text-center flex flex-col gap-2 items-start max-lg:items-center"
           >
             <h2 className="text-5xl max-md:text-4xl font-bold title-font">
-              What we do
+              ليه تشتري من عندنا تحديدا
             </h2>
             <p className="text-xl">
-              Lorem ipsum dolor sit amet consectetur. Malesuada vehicula netus
-              urna in elit amet blandit enim lacinia. Tellus leo felis et vel
-              eget maecenas.
+              <strong> الشفافية والثقة: </strong>
+              نُقدم لك كل المعلومات بشكل واضح ، ونضمن لك صفقات عادلة وآمنة.
+              <br /> <strong>الخدمة المُتميزة: </strong> نُقدم لك دعم فني
+              وإرشادات ، لضمان راحة بالك في كل خطوة. :<br />{" "}
+              <strong>الموقف المتميز</strong> مقابرنا تقع في مواقع مميزة و هادئة
+              ، لضمان راحة بالت الأبدية لِمن تُحب
             </p>
             <Link to="/about" onClick={scrollToTop}>
               <button
                 style={{ borderWidth: 1.5, borderRadius: 4 }}
                 className="bg-transparent  text-black border-red-500 text-xl px-5 py-2 duration-300 hover:bg-red-500 hover:text-white transition-all mt-5 max-md:mt-3"
               >
-                About Us
+                تعرف علينا
               </button>
             </Link>
           </motion.div>
@@ -494,19 +501,19 @@ const ContactPage = () => {
             {/* <div className="flex flex-col gap-7 "> */}
             <div className="flex flex-col gap-7 ">
               <WhatWeDoCard
-                iconSrc={"/icons/reliability.png"}
-                iconAlt={"reliability"}
-                title={"Reliability"}
+                iconSrc={icon1}
+                iconAlt={"المصداقية"}
+                title={"المصداقية"}
                 desc={
-                  "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam distinctio, nemo libero deleniti quibusdam quia!"
+                  " نحن نقدم صور من قلب الواقع وليست صور وهمية ، مع امكانية زيارة المقابر قبل الشراء"
                 }
               />
               <WhatWeDoCard
-                iconSrc={"/icons/communication.png"}
-                iconAlt={"communication"}
-                title={"communication"}
+                iconSrc={icon2}
+                iconAlt={"رضا العميل"}
+                title={"رضا العميل"}
                 desc={
-                  "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam distinctio, nemo libero deleniti quibusdam quia!"
+                  "نهتم بما يهتم به عملاائنا فنقدم لهم باقة مميزة من المقابر المتنوعة في جميع ارجاء المعمورة واسعار في متناول الجميع"
                 }
               />
             </div>
@@ -516,11 +523,11 @@ const ContactPage = () => {
                 className="max-md:hidden rounded-lg w-80 bg-gradient-to-t from-white to-transparent"
               ></div>
               <WhatWeDoCard
-                iconSrc={"/icons/quality-first.png"}
-                iconAlt={"quality-first"}
-                title={"Quality First"}
+                iconSrc={icon3}
+                iconAlt={"التميز"}
+                title={"التميز"}
                 desc={
-                  "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam distinctio, nemo libero deleniti quibusdam quia!"
+                  " الاختيار المُتنوع: نُقدم مجموعة واسعة من المقابر بأسعار مُناسبة ، لتناسب كل الأذواق والميزانيات التسهيلات السهلة: موقعنا الكتروني مُريح وواضح، يساعدك على اختيار المقبرة المناسبة بكل بساطة"
                 }
               />
               <div
@@ -543,7 +550,7 @@ const ContactPage = () => {
           viewport={{ once: true, amount: 0.2 }}
           className="text-5xl max-md:text-4xl font-semibold text-center  mb-16 max-md:mb-12"
         >
-          Customers frequently ask
+          الأسئلة الأكثر شيوعاً{" "}
         </motion.h1>
         <motion.div
           initial="initial"
