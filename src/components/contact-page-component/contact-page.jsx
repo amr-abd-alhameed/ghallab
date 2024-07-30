@@ -246,7 +246,7 @@ const ContactPage = () => {
               _focus={{ borderWidth: 0.1 }}
               color={"black"}
               _placeholder={{ color: "#696969" }}
-              placeholder="First Name"
+              placeholder="الاسم الأول"
               name="firstName"
               value={formData.firstName}
               onChange={handleChange}
@@ -261,7 +261,7 @@ const ContactPage = () => {
               autoComplete="off"
               color={"black"}
               _placeholder={{ color: "#696969" }}
-              placeholder="Last Name"
+              placeholder="اسم العائلة"
               name="lastName"
               value={formData.lastName}
               onChange={handleChange}
@@ -277,7 +277,7 @@ const ContactPage = () => {
             maxLength={40}
             color={"black"}
             _placeholder={{ color: "#696969" }}
-            placeholder="Email Address"
+            placeholder="البريد الاكتروني"
             name="email"
             value={formData.email}
             onChange={handleChange}
@@ -294,7 +294,7 @@ const ContactPage = () => {
             color={"black"}
             _placeholder={{ color: "#696969" }}
             type="number"
-            placeholder="Phone No"
+            placeholder="رقم الهاتف"
             name="phoneNo"
             value={formData.phoneNo}
             onChange={handleChange}
@@ -309,7 +309,7 @@ const ContactPage = () => {
             maxLength={200}
             color={"black"}
             _placeholder={{ color: "#696969" }}
-            placeholder="Message"
+            placeholder="ضع رسالتك هنا !"
             minHeight={"180px"}
             className="w-ful text-white"
             name="message"
@@ -332,7 +332,7 @@ const ContactPage = () => {
             fontSize={"20px"}
             borderRadius={"4px"}
           >
-            Submit
+            ارسال
           </Button>
         </motion.div>
         <motion.div
@@ -344,35 +344,34 @@ const ContactPage = () => {
         >
           <div className="text-5xl max-md:text-4xl max-md:text-center">
             <h1 className="font-semibold ">
-              Contact our support{" "}
+              تواصل معنا
               <span className="font-semibold title-font  text-red-500">
-                team to grow your business
+                <br /> فريقنا مستعد للرد في أي وقت
               </span>
             </h1>
           </div>
           <p className="text-xl">
-            Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil
-            impedit quo minus id quod maxime placeat facere possimus, omnis
-            voluptas assumenda est, omnis dolor repellendus.
+            يُقدم الموقع خدمة استشارات من أخصائيين ، لِمساعدة العميل في اختيار
+            المقبرة المناسبة.
           </p>
           <div className="flex flex-col gap-3">
             <div className="flex  gap-3 text-xl items-center">
               <div>
                 <FaEnvelope className="text-red-500" />
               </div>
-              <p>Office # 420 DHA Phase 90, Karachi, PK</p>
+              <p>mohamedghallab12345@gmail.com</p>
             </div>
             <div className="flex  gap-3 text-xl items-center">
               <div>
                 <FaPhone className="rotate-90 text-red-500" />
               </div>
-              <p>+92 39283848238</p>
+              <p>+20 1010757651 </p>
             </div>
             <div className="flex  gap-3 text-xl items-center">
               <div>
                 <FaMapMarkerAlt className="text-red-500" />
               </div>
-              <p>information@office.com</p>
+              <p>القاهرة</p>
             </div>
           </div>
         </motion.div>
@@ -399,12 +398,10 @@ const ContactPage = () => {
                 className="max-w-xl max-lg:max-w-lg max-sm:w-full text-center"
               >
                 <h1 className="text-[46px] max-lg:text-4xl max-sm:text-[34px] max-[500px]:text-3xl leading-tight font-semibold">
-                  Whatever you are, you
-                  <br /> will definitely get a place
+                  أينما كنت <br /> ستحصل على ما تريد
                 </h1>
                 <p className="text-xl mt-3">
-                  We provide equity and debt capital globally to back projects
-                  that make an impact.
+                  نقدم باقة متنوعة من المقابر من حيث الاسعار والاماكن
                 </p>
               </motion.div>
             </div>
