@@ -1,15 +1,17 @@
 {
   "files": {
-    "main.css": "/ghallab/static/css/main.cb969093.css",
-    "main.js": "/ghallab/static/js/main.729c9336.js",
+    "main.css": "/ghallab/static/css/main.2623a6bd.css",
+    "main.js": "/ghallab/static/js/main.cc2782ce.js",
+    "static/media/faq-bannar.jpg": "/ghallab/static/media/faq-bannar.727ab19d4bfda5ba1af7.jpg",
     "static/media/hero-bg-image.jpg": "/ghallab/static/media/hero-bg-image.b4b52759c442b3f5a24f.jpg",
     "static/media/service-hero-bg.jpg": "/ghallab/static/media/service-hero-bg.9f9f75b88df6f3d162bb.jpg",
+    "static/media/what-we-do.jpg": "/ghallab/static/media/what-we-do.1977b48bbe4f7217d79c.jpg",
     "index.html": "/ghallab/index.html",
-    "main.cb969093.css.map": "/ghallab/static/css/main.cb969093.css.map",
-    "main.729c9336.js.map": "/ghallab/static/js/main.729c9336.js.map"
+    "main.2623a6bd.css.map": "/ghallab/static/css/main.2623a6bd.css.map",
+    "main.cc2782ce.js.map": "/ghallab/static/js/main.cc2782ce.js.map"
   },
   "entrypoints": [
-    "static/css/main.cb969093.css",
-    "static/js/main.729c9336.js"
+    "static/css/main.2623a6bd.css",
+    "static/js/main.cc2782ce.js"
   ]
 }
