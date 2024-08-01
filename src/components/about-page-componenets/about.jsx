@@ -1,5 +1,4 @@
-import React from "react";
-import Button from "../buttons-component/solidbutton";
+import React from "react";import Button from "../buttons-component/solidbutton";
 import { Link } from "react-router-dom";
 import { FaArrowRight } from "react-icons/fa";
 import { motion } from "framer-motion";
@@ -11,10 +10,14 @@ import PartnerBrandCard from "../home-page-components/partnerBrandCard";
 import { partnerBrands } from "../../constants/partnerBrands";
 import "./about.css";
 
+import bg from "../../../src/assets/images/service-hero-bg.jpg";
+import logo1 from "../../../src/assets/images/what-we-do.jpg";
+import logo2 from "../../assets/images/faq-bannar.jpg";
 const AboutPage = () => {
   return (
     <>
       <div
+        style={{ backgroundImage: "url(" + bg + ")" }}
         className="bg-
        bg-fixed bg-center bg-cover pt-44 pb-36 max-md:pt-36 max-md:pb-24 "
       >
@@ -27,20 +30,21 @@ const AboutPage = () => {
           className="flex gap-10 justify-between items-end max-md:items-center px-10 mx-auto max-md:px-5 max-md:flex-col"
         >
           <div className="text-white flex flex-col gap-8 max-md:items-center max-md:text-center">
-            <h1 className="text-5xl font-bold">Who We Are</h1>
+            <h1 className="text-5xl font-bold">من نكون</h1>
             <p className="text-xl max-w-md">
-              Our mission is to engage in issues that are of concern to
-              individuals
+              الموقع الأفضل لاختيار مقبرة مميزة في مصر. لدينا مجموعة متنوعة من
+              المقابر الفاخرة والمتوسطة بسعر مناسب، مع ضمان راحة بال تامة في
+              اختيار مأوى لِمن تُح
             </p>
           </div>
           <div className="flex gap-12 max-sm:text-center text-white">
             <div className="flex max-md:items-center flex-col gap-4">
-              <h2 className="text-4xl title-font font-bold">19K+</h2>
-              <p className="text-lg">Premium houses</p>
+              <h2 className="text-4xl title-font font-bold">2500+</h2>
+              <p className="text-lg">مقبرة متاحة</p>
             </div>
             <div className="flex max-md:items-center flex-col gap-4">
-              <h2 className="text-4xl  title-font font-bold">5000+</h2>
-              <p className="text-lg">Premium houses</p>
+              <h2 className="text-4xl  title-font font-bold">1000+</h2>
+              <p className="text-lg">عملية بيع ناجحة</p>
             </div>
           </div>
         </motion.div>
@@ -59,11 +63,11 @@ const AboutPage = () => {
           <div className="flex w-full gap-10 max-md:flex-col max-md:justify-center max-md:items-center max-md:text-center">
             <div className="flex flex-col items-start justify-between max-md:items-center">
               <h1 className="text-5xl font-bold title-font w-max">
-                What we offer
+                ما الذي نعرضه
               </h1>
               <Link onClick={scrollToTop} to={"/services"}>
                 <Button
-                  content={"Services"}
+                  content={"الخدمات"}
                   fontSize={"text-xl"}
                   padding={"px-5  py-2"}
                   furtherClasses={"mt-8"}
@@ -71,39 +75,33 @@ const AboutPage = () => {
               </Link>
             </div>
             <div className="w-full">
-              <img
-                src="/about-page-images/what-we-do.jpg"
-                className="w-full h-full"
-                alt=""
-              />
+              <img src={logo1} className="w-full h-full" alt="" />
             </div>
           </div>
           <div className="what-we-do-cards mt-14 gap-8 max-md:grid-cols-1 max-md:grid-rows-3 grid grid-cols-3 grid-rows-1">
             <div>
-              <h2 className="text-2xl text-red-500 font-semibold">
-                Get an instant free valuation
-              </h2>
+              <h2 className="text-2xl text-red-500 font-semibold">بيع مقابر</h2>
               <p className="text-xl mt-2">
-                Lorem ipsum dolor sit amet consectetur. Malesuada vehicula netus
-                urna in elit amet.
+                يوفر الموقع معلومات كاملة عن كل مقبرة، بما في ذلك الموقع، الحجم،
+                السعر، والمزايا الأخرى
               </p>
             </div>
             <div>
               <h2 className="text-2xl text-red-500 font-semibold">
-                Get your property ready
+                معابنة المقابر
               </h2>
               <p className="text-xl mt-2">
-                Lorem ipsum dolor sit amet consectetur. Malesuada vehicula netus
-                urna in elit amet.
+                يُقدم الموقع خدمة استشارات من أخصائيين ، لِمساعدة العميل في
+                اختيار المقبرة المناسبة
               </p>
             </div>
             <div>
               <h2 className="text-2xl text-red-500 font-semibold">
-                Offer acceptance
+                صور حية من الموقع
               </h2>
               <p className="text-xl mt-2">
-                Lorem ipsum dolor sit amet consectetur. Malesuada vehicula netus
-                urna in elit amet.
+                يعرض الموقع صورًا وفيديوهات للمقابر ، لتسهيل عملية الاختيار على
+                العميل
               </p>
             </div>
           </div>
@@ -122,12 +120,11 @@ const AboutPage = () => {
             className=" w-1/2 max-md:w-full flex flex-col text-white items-start justify-between max-md:items-center"
           >
             <h1 className="text-5xl font-bold title-font w-max">
-              What we offer
+              خبرتنُا في المجال
             </h1>
             <p className="text-xl mt-5">
-              We are real estate agency that has been established since 1995
-              with many advantages over our competitors. We have more than 10000
-              happy customers and have worked with more than 200 distributors
+              نحن الرواد في المجال منذ عام 1989 ونمتلك باقة متنوعة من افضل
+              المقابر على مستوى مصر
             </p>
           </motion.div>
 
@@ -138,15 +135,14 @@ const AboutPage = () => {
             viewport={{ once: true, amount: 0.2 }}
             className=" w-1/2 max-md:w-full text-white/50"
           >
-            <h2 className="text-2xl">Our Projects</h2>
+            <h2 className="text-2xl">زبوناً راضيا</h2>
             <div className="relative w-fit max-md:mx-auto -mt-7 max-md:-mt-5">
               <h1 className="text-[150px] max-sm:text-[120px] font-semibold relative text-red-500">
-                200+
+                740+
               </h1>
               <div
                 className="absolute z-50 top-0 right-0 left-0 bottom-0 bg-no-repeat "
                 style={{
-                  backgroundImage: "url(/200+.png)",
                   backgroundPosition: "40% 100%",
                   backgroundSize: "95%",
                 }}
@@ -168,15 +164,13 @@ const AboutPage = () => {
             viewport={{ once: true, amount: 0.2 }}
             className=" flex max-md:flex-wrap-reverse justify-center items-end max-md:text-center gap-10 max-md:gap-12  -mt-44 max-md:mt-0 "
           >
-            <div className=" w-1/2 max-md:w-full flex flex-col text-white items-start justify-between max-md:items-center">
+            {/* <div className=" w-1/2 max-md:w-full flex flex-col text-white items-start justify-between max-md:items-center">
               <img src="/we-focus.jpg" alt="" />
-            </div>
+            </div> */}
 
-            <div className=" w-1/2 text-5xl max-lg:text-4xl max-md:w-full ">
-              <h1 className="font-semibold ">We focus on all</h1>
-              <h1 className="font-semibold  text-red-500">
-                Real Estate Class Saaets
-              </h1>
+            <div className=" w-1/2 text-5xl max-lg:text-4xl max-md:w-full my-9 ">
+              <h1 className="font-semibold "></h1>
+              <h1 className="font-semibold  text-red-500"></h1>
             </div>
           </motion.div>
           <div className="we-focus-cards grid grid-cols-3 max-md:grid-cols-1 grid-rows-1 max-md:grid-rows-3 gap-6 mt-10">
@@ -187,13 +181,12 @@ const AboutPage = () => {
               viewport={{ once: true, amount: 0.2 }}
               className="border-t-2 text-xl border-black/20 pt-4"
             >
-              <h2 className="title-font font-semibold">-01</h2>
+              <h2 className="title-font font-semibold">1</h2>
               <h2 className="title-font mt-7  font-medium text-red-500">
-                Residential
+                الشفافية والثقة{" "}
               </h2>
               <p className="mt-2">
-                Lorem ipsum dolor sit amet consectetur. Malesuada vehicula netus
-                urna in elit amet.
+                نُقدم لك كل المعلومات بشكل واضح ، ونضمن لك صفقات عادلة وآمنة.
               </p>
             </motion.div>
             <motion.div
@@ -203,13 +196,13 @@ const AboutPage = () => {
               viewport={{ once: true, amount: 0.2 }}
               className="border-t-2 text-xl border-black/20 pt-4"
             >
-              <h2 className="title-font font-semibold">-01</h2>
+              <h2 className="title-font font-semibold">2</h2>
               <h2 className="title-font mt-7  font-medium text-red-500">
-                Residential
+                تفاصيل المقابر
               </h2>
               <p className="mt-2">
-                Lorem ipsum dolor sit amet consectetur. Malesuada vehicula netus
-                urna in elit amet.
+                يوفر الموقع معلومات كاملة عن كل مقبرة، بما في ذلك الموقع، الحجم،
+                السعر
               </p>
             </motion.div>
             <motion.div
@@ -219,13 +212,12 @@ const AboutPage = () => {
               viewport={{ once: true, amount: 0.2 }}
               className="border-t-2 text-xl border-black/20 pt-4"
             >
-              <h2 className="title-font font-semibold">-01</h2>
+              <h2 className="title-font font-semibold">3</h2>
               <h2 className="title-font mt-7  font-medium text-red-500">
-                Residential
+                خدمة المُتميزة{" "}
               </h2>
               <p className="mt-2">
-                Lorem ipsum dolor sit amet consectetur. Malesuada vehicula netus
-                urna in elit amet.
+                نُقدم لك دعم فني وإرشادات ، لضمان راحة بالك في كل خطوة.
               </p>
             </motion.div>
           </div>
@@ -234,11 +226,11 @@ const AboutPage = () => {
       {/* we focus section start */}
       <div
         className="bg-[50%] max-lg:bg-[55%] max-md:bg-[90%] bg-no-repeat bg-fixed"
-        style={{ backgroundImage: "url('/faq-bannar.jpg')" }}
+        style={{ backgroundImage: "url(" + logo2 + ")" }}
       >
         <div
           style={{ maxWidth: 1200 }}
-          className="mx-auto  p-10 py-28  max-sm:px-5 max-md:py-16 flex justify-end  "
+          className="mx-auto  p-10 py-28  max-sm:px-5 max-md:py-16 flex justify-start  "
         >
           <motion.div
             initial="initial"
@@ -248,12 +240,14 @@ const AboutPage = () => {
             className="w-1/2 max-lg:w-2/3 max-md:w-full"
           >
             <h1 className="text-5xl ">
-              We seek to create value for investors across the
-              <span className="text-red-500"> real estate spectrum</span>
+              <span className="text-red-500  leading-5"> ملاحظة </span>
+              قد تُختلف الخدمات التي يُقدمها الموقع من مقبرة لأخرى. لذلك من
+              المُهم المتابعة مع خدمة العملاء والتعرف على المميزات بشكل أفضل قبل
+              اتخاذ القرار.
             </h1>
             <div className="flex flex-col gap-5 mt-7">
               <div className="flex justify-between items-center border-b-2 border-black/30 pb-5 text-2xl">
-                <h2>Investmennt Management</h2>
+                <h2>الاختيار المُتنوع</h2>
                 <Link
                   to={"/services"}
                   onClick={scrollToTop}
@@ -263,7 +257,7 @@ const AboutPage = () => {
                 </Link>
               </div>
               <div className="flex justify-between items-center border-b-2 border-black/30 pb-5 text-2xl">
-                <h2>Investmennt Management</h2>
+                <h2>لتسهيلات السهلة</h2>
                 <Link
                   to={"/services"}
                   onClick={scrollToTop}
@@ -273,7 +267,7 @@ const AboutPage = () => {
                 </Link>
               </div>
               <div className="flex justify-between items-center border-b-2 border-black/30 pb-5 text-2xl">
-                <h2>Investmennt Management</h2>
+                <h2>الشفافية والثقة </h2>
                 <Link
                   to={"/services"}
                   onClick={scrollToTop}
@@ -283,7 +277,7 @@ const AboutPage = () => {
                 </Link>
               </div>
               <div className="flex justify-between items-center border-b-2 border-black/30 pb-5 text-2xl">
-                <h2>Investmennt Management</h2>
+                <h2> الخدمة المُتميزة</h2>
                 <Link
                   to={"/services"}
                   onClick={scrollToTop}
@@ -314,14 +308,14 @@ const AboutPage = () => {
               variants={animationVariants.fadeLeft}
               className="text-5xl max-md:text-4xl font-semibold"
             >
-              We use Real Estate to show our appreciation of the world.
+              لا تقلق أبدًا حول مستقبل أحبائك ، ونُقدم لك الراحة والتكريم الّذي
+              يستحقونه{" "}
             </motion.h1>
             <motion.p
               variants={animationVariants.fadeLeft}
               className="text-2xl"
             >
-              We provide equity and debt capital globally to back projects that
-              make an impact.
+              انتهز الفرصة واستكشف عالم الراحة والتكريم معنا!
             </motion.p>
             <motion.div
               variants={animationVariants.fadeLeft}
@@ -329,41 +323,35 @@ const AboutPage = () => {
             >
               <div className="flex flex-col max-lg:justify-center max-lg:items-center">
                 <h2 className="title-font text-red-500 text-5xl max-md:text-4xl font-semibold">
-                  8
+                  26
+                </h2>
+                <p className="text-xl">عاما من الخبرة </p>
+              </div>
+              <div className="flex flex-col max-lg:justify-center max-lg:items-center">
+                <h2 className="title-font text-red-500 text-5xl max-md:text-4xl font-semibold">
+                  +1000
+                </h2>
+                <p className="text-xl">عملية بيع ناجحة </p>
+              </div>
+              <div className="flex flex-col max-lg:justify-center max-lg:items-center">
+                <h2 className="title-font text-red-500 text-5xl max-md:text-4xl font-semibold">
+                  740
                 </h2>
                 <p className="text-xl">
-                  Years of seccessful experience in real estate
+                  <p className="text-xl">زبونا راضيا واكثر </p>
                 </p>
               </div>
               <div className="flex flex-col max-lg:justify-center max-lg:items-center">
                 <h2 className="title-font text-red-500 text-5xl max-md:text-4xl font-semibold">
-                  8
+                  أنت
                 </h2>
-                <p className="text-xl">
-                  Years of seccessful experience in real estate
-                </p>
-              </div>
-              <div className="flex flex-col max-lg:justify-center max-lg:items-center">
-                <h2 className="title-font text-red-500 text-5xl max-md:text-4xl font-semibold">
-                  8
-                </h2>
-                <p className="text-xl">
-                  Years of seccessful experience in real estate
-                </p>
-              </div>
-              <div className="flex flex-col max-lg:justify-center max-lg:items-center">
-                <h2 className="title-font text-red-500 text-5xl max-md:text-4xl font-semibold">
-                  8
-                </h2>
-                <p className="text-xl">
-                  Years of seccessful experience in real estate
-                </p>
+                <p className="text-xl">زبوننا القادم </p>
               </div>
             </motion.div>
             <motion.div variants={animationVariants.fadeLeft}>
               <Link onClick={scrollToTop} to={"/contact"}>
                 <Button
-                  content={"Get In Touch"}
+                  content={"احجز مقبرتك الآن"}
                   padding={"px-6 py-3"}
                   fontSize={"text-xl"}
                 />
@@ -411,8 +399,8 @@ const AboutPage = () => {
             >
               <ReviewCard
                 imgSrc={"/reviews/jane-cooper.jpg"}
-                title={"Jane Cooper"}
-                from={"Real Estate"}
+                title={"سعيد الشاذلي"}
+                from={"الشيخ ذايد"}
               />
             </motion.div>
             <motion.div
@@ -421,8 +409,8 @@ const AboutPage = () => {
             >
               <ReviewCard
                 imgSrc={"/reviews/robert-fox.jpg"}
-                title={"Robert Fox"}
-                from={"Creative Director"}
+                title={"ميار ذكي"}
+                from={"القاهرة الجديدة"}
               />
             </motion.div>
             <motion.div
@@ -431,8 +419,8 @@ const AboutPage = () => {
             >
               <ReviewCard
                 imgSrc={"/reviews/marvin-mckinney.jpg"}
-                title={"Marvin Mckinney"}
-                from={"CEO of Bimetrix"}
+                title={"أحمد خالد"}
+                from={"التجمع الأول"}
               />
             </motion.div>
           </motion.div>
@@ -444,7 +432,7 @@ const AboutPage = () => {
             className="w-2/4 max-md:w-full max-md:text-center flex flex-col gap-8"
           >
             <h1 className="text-5xl max-md:text-4xl font-semibold">
-              Why do people love homyz
+              ليه الناس تحب تشتري من غللاب{" "}
             </h1>
             <div>
               <Carousel />
@@ -470,8 +458,8 @@ const AboutPage = () => {
               return (
                 <PartnerBrandCard
                   title={e.title}
-                  src={`/partner-brands/${e.src}.png`}
-                  alt={e.src}
+                  // src={`/partner-brands/${e.src}.png`}
+                  // alt={e.src}
                   key={i}
                 />
               );

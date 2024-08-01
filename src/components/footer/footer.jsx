@@ -1,4 +1,5 @@
-import { Button, Input, Textarea, useToast } from "@chakra-ui/react";import React, { useState } from "react";
+import { Button, Input, Textarea, useToast } from "@chakra-ui/react";
+import React, { useState } from "react";
 import { FaFacebookF, FaInstagram, FaTwitter } from "react-icons/fa";
 import axios from "axios";
 import { Link } from "react-router-dom";
@@ -137,7 +138,9 @@ const Footer = () => {
         <div className="flex flex-col items-start h-auto justify-between gap-16 w-2/4 max-lg:w-full pr-10 max-sm:pr-0">
           <div className="flex flex-col text-lg items-start  justify-between gap-10 ">
             <a href="/ghallab">
-              <img src={logo1} className="w-36" alt="شعار موقع غللاب" />
+              <p className="w-44 font-bold	text-3xl text-red-500	 max-lg:w-36">
+                موقع غلاب
+              </p>{" "}
             </a>
             <p style={{ color: "#696969" }}>
               مقابر فاخرة، لذكرى مميزة. أفضل المواقع، بأعلى جودة. اختار مأواك

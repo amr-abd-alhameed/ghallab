@@ -240,11 +240,9 @@ const NavBar = ({ navBar2, showCase1Page }) => {
           className="flex justify-between mx-auto items-center gap-4 py-7 max-md:py-5 px-10 max-sm:px-5 font-medium"
         >
           <Link onClick={scrollToTop} to="/">
-            <img
-              src={navBar2 ? "/Homyz-logo2.png" : logo}
-              className="w-44 max-lg:w-36"
-              alt="صورة الشعار"
-            />
+            <p className="w-44 font-bold	text-3xl text-red-500	 max-lg:w-36">
+              موقع غلاب
+            </p>
           </Link>
           <ul
             className={
@@ -270,7 +268,7 @@ const NavBar = ({ navBar2, showCase1Page }) => {
               خدماتُنْا
             </Link>
             <div className="showcase-menu cursor-pointer hover:text-red-500 transition-all relative">
-              Show Cases
+              تصفح المقابر{" "}
               <div className="showcase-list hidden absolute cursor-default -left-4 ">
                 <ul
                   style={{ border: "1px solid #e9e9e9" }}
@@ -286,7 +284,7 @@ const NavBar = ({ navBar2, showCase1Page }) => {
                       className="hover:text-red-500 transition-all"
                       to="/showcases/showcase1"
                     >
-                      Show Case 1
+                      صالة عرض 1{" "}
                     </Link>
                   </li>
                   <li className="listItem flex items-center gap-2">
@@ -299,7 +297,7 @@ const NavBar = ({ navBar2, showCase1Page }) => {
                       className="hover:text-red-500 transition-all"
                       to="/showcases/showcase2"
                     >
-                      Show Case 2
+                      صالة عرض 2
                     </Link>
                   </li>
                 </ul>
@@ -312,7 +310,7 @@ const NavBar = ({ navBar2, showCase1Page }) => {
             >
               تعرّف علينا
             </Link>
-            <div
+            {/* <div
               className="relative cursor-pointer  transition-all"
               onClick={() => {
                 setModal(true);
@@ -331,7 +329,7 @@ const NavBar = ({ navBar2, showCase1Page }) => {
                 ""
               )}
               <FaShoppingCart />
-            </div>
+            </div> */}
 
             <Link onClick={scrollToTop} to="/contact">
               <Button

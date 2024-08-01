@@ -1,5 +1,4 @@
-import React, { useState } from "react";
-import {
+import React, { useState } from "react";import {
   FaCoins,
   FaEnvelope,
   FaMapMarkerAlt,
@@ -412,25 +411,25 @@ const ContactPage = () => {
 
             {/* map human images start */}
             <div className="absolute top-24 max-md:top-6 left-16 max-lg:left-10  max-md:left-16 w-12 h-12 rounded-full overflow-hidden">
-              <img
+              {/* <img
                 src="/contact-page-images/1.jpg"
                 className="w-full h-full object-cover object-center"
                 alt="1"
-              />
+              /> */}
             </div>
             <div className="absolute bottom-20 max-lg:bottom-12 left-36 max-lg:left-20 max-sm:left-10 w-12 h-12 rounded-full overflow-hidden">
-              <img
+              {/* <img
                 src="/contact-page-images/2.jpg"
                 className="w-full h-full object-cover object-center"
                 alt="2"
-              />
+              /> */}
             </div>
             <div className="absolute top-12 right-36 max-lg:right-24 max-sm:right-12 w-12 h-12 rounded-full overflow-hidden">
-              <img
+              {/* <img
                 src="/contact-page-images/3.jpg"
                 className="w-full h-full object-cover object-center"
                 alt="3"
-              />
+              /> */}
             </div>
             {/* map human images end */}
 

@@ -1,4 +1,5 @@
-import { FaPeriscope } from "react-icons/fa";import WhatWeDoCard from "./whatwedocard";
+import { FaPeriscope } from "react-icons/fa";
+import WhatWeDoCard from "./whatwedocard";
 import ExculusivePropertyCard from "./exculusivePropertyCard";
 import Button from "../buttons-component/solidbutton";
 import ProjectCard from "./projectCard";

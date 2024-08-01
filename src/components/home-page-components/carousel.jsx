@@ -1,5 +1,4 @@
-import React, { useRef, useState } from "react";
-// Import Swiper React components
+import React, { useRef, useState } from "react"; // Import Swiper React components
 import { Swiper, SwiperSlide, useSwiper } from "swiper/react";
 
 // Import Swiper styles
@@ -26,25 +25,19 @@ export default function Carousel() {
           clickable: true,
         }}
         modules={[Pagination, Navigation]}
-        className="mySwiper text-xl"
+        className="mySwiper text-xl h-60 "
       >
         <SwiperSlide>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit neque
-          natus asperiores unde, nulla sequi, nobis saepe dicta aut maiores quia
-          quos sapiente dolores consequuntur perspiciatis repellendus quis
-          necessitatibus quas.
+          غلاب: المكان الذي يضمن لك راحة البال في وداع أحبائك. نقدم لك مجموعة
+          متنوعة من المقابر، تُلبّي احتياجاتك و رغباتك.
         </SwiperSlide>
         <SwiperSlide>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit neque
-          natus asperiores unde, nulla sequi, nobis saepe dicta aut maiores quia
-          quos sapiente dolores consequuntur perspiciatis repellendus quis
-          necessitatibus quas.
+          غَلاَب: الراحة الأبدية لأحبائك في مُقرّ يليق بِهم. استكشف مُجموعة
+          مُختارة من المقابر ، و أحجز ما يناسب احتياجاتك.
         </SwiperSlide>
         <SwiperSlide>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit neque
-          natus asperiores unde, nulla sequi, nobis saepe dicta aut maiores quia
-          quos sapiente dolores consequuntur perspiciatis repellendus quis
-          necessitatibus quas.
+          غَلاَب: مكان يُقدّر حُبّك لِأحبائك و يُخَلّد ذكراهم بِشكل لائق. نُقدّم
+          لك مُجموعة مُتنوّعة من خدمات المقبرة ، لِضمان راحة بالك.
         </SwiperSlide>
 
         <div className="slider-controler flex max-md:justify-center  gap-3  mt-16">
