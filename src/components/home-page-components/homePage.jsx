@@ -26,6 +26,8 @@ import icon1 from "../../assets/images/icons/reliability.png";
 import icon2 from "../../assets/images/icons/communication.png";
 import icon3 from "../../assets/images/icons/quality-first.png";
 
+import iconic1 from "../../assets/images/maqbara/w21.jpg";
+import element1 from "../../assets/images/cards-corner.png";
 const HomePage = () => {
   const navigate = useNavigate();
   const toast = useToast();
@@ -277,7 +279,7 @@ const HomePage = () => {
               <div className="w-2/4 max-lg:w-full">
                 <ExculusivePropertyCard
                   imgSrc={rentHouses[0].mainImage}
-                  titlePart1={"House in "}
+                  titlePart1={"مقابر "}
                   titlePart2={rentHouses[0].name}
                   pricing={rentHouses[0].price}
                   type={rentHouses[0].type}
@@ -287,7 +289,7 @@ const HomePage = () => {
               <div className="w-2/4 gap-5 flex max-lg:w-full max-sm:flex-col">
                 <ExculusivePropertyCard
                   imgSrc={rentHouses[1].mainImage}
-                  titlePart1={"House in "}
+                  titlePart1={"مقابر "}
                   titlePart2={rentHouses[1].name}
                   pricing={rentHouses[1].price}
                   type={rentHouses[1].type}
@@ -295,7 +297,7 @@ const HomePage = () => {
                 />
                 <ExculusivePropertyCard
                   imgSrc={rentHouses[2].mainImage}
-                  titlePart1={"House in "}
+                  titlePart1={"مقابر "}
                   titlePart2={rentHouses[2].name}
                   pricing={rentHouses[2].price}
                   type={rentHouses[2].type}
@@ -307,7 +309,7 @@ const HomePage = () => {
               <div className="w-2/4 gap-5 flex max-lg:w-full max-sm:flex-col">
                 <ExculusivePropertyCard
                   imgSrc={rentHouses[3].mainImage}
-                  titlePart1={"House in "}
+                  titlePart1={"مقابر "}
                   titlePart2={rentHouses[3].name}
                   pricing={rentHouses[3].price}
                   type={rentHouses[3].type}
@@ -315,7 +317,7 @@ const HomePage = () => {
                 />
                 <ExculusivePropertyCard
                   imgSrc={rentHouses[4].mainImage}
-                  titlePart1={"House in "}
+                  titlePart1={"مقابر "}
                   titlePart2={rentHouses[4].name}
                   pricing={rentHouses[4].price}
                   type={rentHouses[4].type}
@@ -325,7 +327,7 @@ const HomePage = () => {
               <div className="w-2/4 max-lg:w-full">
                 <ExculusivePropertyCard
                   imgSrc={rentHouses[5].mainImage}
-                  titlePart1={"House in "}
+                  titlePart1={"مقابر "}
                   titlePart2={rentHouses[5].name}
                   pricing={rentHouses[5].price}
                   type={rentHouses[5].type}
@@ -406,7 +408,7 @@ const HomePage = () => {
           <div className="w-full max-lg:w-full h-full max-sm:max-h-[500px] ">
             <div className=" h-full w-full relative overflow-hidden rounded-lg">
               <img
-                src="/appriciation-section-image.jpg"
+                src={iconic1}
                 className="absolute w-full h-full object-cover object-center "
                 alt=""
               />
@@ -439,7 +441,7 @@ const HomePage = () => {
           </motion.h1>
           <div className="grid grid-cols-4 grid-rows-1 max-lg:grid-cols-2 max-lg:grid-rows-2 max-sm:grid-cols-1 max-sm:grid-rows-4 gap-4 relative mt-10 max-sm:mt-8">
             <img
-              src="/cards-corner.png"
+              src={element1}
               className="absolute -left-10 -bottom-10 max-xl:hidden"
               alt=""
             />

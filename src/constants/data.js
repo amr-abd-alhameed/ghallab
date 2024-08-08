@@ -1,15 +1,22 @@
+import logo1 from "../assets/images/maqbara/w21.jpg";
+import logo2 from "../assets/images/maqbara/w24.jpg";
+import logo3 from "../assets/images/maqbara/m22.jpg";
+import logo4 from "../assets/images/maqbara/w17.jpg";
+import logo5 from "../assets/images/maqbara/w18.jpg";
+import logo6 from "../assets/images/maqbara/w21.jpg";
+
 export const rentHouses = [
   {
     id: 1,
-    type: "featured",
-    mainImage: "/Rent-houses/House-1/home1-1.jpg",
+    type: "فاخرة",
+    mainImage: logo1,
     moreImages: [
-      "/Rent-houses/House-1/home1-2.jpg",
+      logo1,
       "/Rent-houses/House-1/home1-3.jpg",
       "/Rent-houses/House-1/home1-4.jpg",
       "/Rent-houses/House-1/home1-5.jpg",
     ],
-    name: "Lahore",
+    name: "العاشر",
     address: "DHA 9 City, Lahore, Pakistan",
     price: 130000,
     details: [
@@ -27,15 +34,15 @@ export const rentHouses = [
   },
   {
     id: 2,
-    type: "featured",
-    mainImage: "/Rent-houses/House-2/home2-1.jpg",
+    type: "فاخرة",
+    mainImage: logo2,
     moreImages: [
-      "/Rent-houses/House-2/home2-2.jpg",
+      logo2,
       "/Rent-houses/House-2/home2-3.jpg",
       "/Rent-houses/House-2/home2-4.jpg",
       "/Rent-houses/House-2/home2-5.jpg",
     ],
-    name: "Karachi",
+    name: "السادات",
     address: "Bahria Town, Karachi, Pakistan",
     price: 100000,
     details: [
@@ -53,15 +60,15 @@ export const rentHouses = [
   },
   {
     id: 3,
-    type: "popular",
-    mainImage: "/Rent-houses/House-3/home3-1.jpg",
+    type: "مميزة  ",
+    mainImage: logo4,
     moreImages: [
-      "/Rent-houses/House-3/home3-2.jpg",
+      logo4,
       "/Rent-houses/House-3/home3-3.jpg",
       "/Rent-houses/House-3/home3-4.jpg",
       "/Rent-houses/House-3/home3-5.jpg",
     ],
-    name: "Karachi",
+    name: "اكتوبر",
     address: "Gulistan-e-Johar, Karachi, Pakistan",
     price: 50000,
     details: [
@@ -79,15 +86,15 @@ export const rentHouses = [
   },
   {
     id: 4,
-    type: "popular",
-    mainImage: "/Rent-houses/House-4/home4-1.jpg",
+    type: "مميزة  ",
+    mainImage: logo5,
     moreImages: [
-      "/Rent-houses/House-4/home4-2.jpg",
+      logo5,
       "/Rent-houses/House-4/home4-3.jpg",
       "/Rent-houses/House-4/home4-4.jpg",
       "/Rent-houses/House-4/home4-5.jpg",
     ],
-    name: "Islamabad",
+    name: "الرحاب",
     address: "Blue Area, F-3, Islamabad, Pakistan",
     price: 135000,
     details: [
@@ -105,15 +112,15 @@ export const rentHouses = [
   },
   {
     id: 5,
-    type: "popular",
-    mainImage: "/Rent-houses/House-5/home5-1.jpg",
+    type: "مميزة  ",
+    mainImage: logo6,
     moreImages: [
-      "/Rent-houses/House-5/home5-2.jpg",
+      logo6,
       "/Rent-houses/House-5/home5-3.jpg",
       "/Rent-houses/House-5/home5-4.jpg",
       "/Rent-houses/House-5/home5-5.jpg",
     ],
-    name: "Faisalabad",
+    name: "مصر الجديدة",
     address: "Saadi Town, Faisalabad, Pakistan",
     price: 95000,
     details: [
@@ -131,15 +138,15 @@ export const rentHouses = [
   },
   {
     id: 6,
-    type: "featured",
-    mainImage: "/Rent-houses/House-6/home6-1.jpg",
+    type: "فاخرة",
+    mainImage: logo3,
     moreImages: [
-      "/Rent-houses/House-6/home6-2.jpg",
+      logo3,
       "/Rent-houses/House-6/home6-3.jpg",
       "/Rent-houses/House-6/home6-4.jpg",
       "/Rent-houses/House-6/home6-5.jpg",
     ],
-    name: "Karachi",
+    name: "اكتوبر",
     address: "Bahria Town, Karachi, Pakistan",
     price: 120000,
     details: [

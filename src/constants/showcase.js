@@ -1,3 +1,7 @@
+import logo1 from "../assets/images/maqbara/m14.jpg";
+import logo2 from "../assets/images/maqbara/m17.jpg";
+import logo3 from "../assets/images/maqbara/m20.jpg";
+import logo4 from "../assets/images/maqbara/m22.jpg";
 export const showCase = [
   {
     id: 1,
@@ -6,9 +10,9 @@ export const showCase = [
       "Karachi 'The City of Lights', the vibrant metropolis on the shores of the Arabian Sea, is a melting pot of diverse cultures, bustling with energy.",
     description:
       "Karachi: Karachi is the largest and most populous city in Pakistan, located on the southern coast of the country. It is known as the financial and economic hub of Pakistan, with a bustling metropolitan atmosphere. Karachi is home to a diverse population, vibrant markets, and a lively food scene. It also boasts beautiful beaches along the Arabian Sea, historical landmarks, and a thriving arts and entertainment scene.",
-    coverImage: "/Project-showcase/Karachi/Dolmen-bahria-towers.jpg",
+    coverImage: logo1,
     moreImages: [
-      "/Project-showcase/Karachi/Street-view.jpg",
+      logo1,
       "/Project-showcase/Karachi/City-view.jpg",
       "/Project-showcase/Karachi/Kharadar-street.jpg",
       "/Project-showcase/Karachi/Flyover-view.jpg",
@@ -23,9 +27,9 @@ export const showCase = [
       "Islamabad, the serene capital of Pakistan, is nestled among picturesque hills, renowned for its well-planned infrastructure and green spaces.",
     description:
       "Islamabad: Islamabad is the capital city of Pakistan, nestled in the Margalla Hills in the northern part of the country. It is a modern and planned city, known for its wide, tree-lined avenues, spacious parks, and serene beauty. Islamabad is home to the country's government institutions, diplomatic enclaves, and a growing technology and business sector. The city also offers a range of recreational activities, including hiking trails, golf courses, and cultural festivals.",
-    coverImage: "/Project-showcase/Islamabad/Faisal-mosque.jpg",
+    coverImage: logo2,
     moreImages: [
-      "/Project-showcase/Islamabad/Fatima-Jinnah-Park.jpg",
+      logo2,
       "/Project-showcase/Islamabad/Lotus-temple.jpg",
       "/Project-showcase/Islamabad/Margala-hills.jpg",
       "/Project-showcase/Islamabad/Islamabad-murre-highway.jpg",
@@ -40,9 +44,9 @@ export const showCase = [
       "Lahore, the cultural heart of Pakistan, captivates visitors with its grand Mughal architecture, making it a city that embraces history, art, and a vibrant zest for life.",
     description:
       "Lahore: Lahore is the cultural capital of Pakistan, situated in the eastern province of Punjab. It is renowned for its rich history, Mughal-era architecture, and vibrant traditions. Lahore is home to many historical sites, including the iconic Badshahi Mosque and Lahore Fort. The city is also known for its love of arts, literature, and music, with numerous festivals and cultural events taking place throughout the year.",
-    coverImage: "/Project-showcase/Lahore/Badshahi-mosque.jpg",
+    coverImage: logo3,
     moreImages: [
-      "/Project-showcase/Lahore/Minar-e-pakistan.jpg",
+      logo3,
       "/Project-showcase/Lahore/Royal-fort.jpg",
       "/Project-showcase/Lahore/Rose-garden-fc.jpg",
       "/Project-showcase/Lahore/Walled-city.jpg",
@@ -57,9 +61,9 @@ export const showCase = [
       "Quetta, the captivating city nestled in the rugged mountains of Balochistan, enchants with its breathtaking natural beauty and landscapes.",
     description:
       "Quetta: Quetta is the provincial capital of Balochistan, located in southwestern Pakistan. It is surrounded by rugged mountains and serves as a gateway to the famous Bolan Pass. Quetta has a distinctive culture influenced by its proximity to Afghanistan and Iran. The city is known for its dry, arid climate and serves as a trading center for fruits, particularly apples. Quetta is also a starting point for exploring the scenic beauty of the province, including the Ziarat Valley and Hanna Lake.",
-    coverImage: "/Project-showcase/Quetta/Quaid-e-azam-residency.jpg",
+    coverImage: logo4,
     moreImages: [
-      "/Project-showcase/Quetta/Hanna-lake.jpg",
+      logo4,
       "/Project-showcase/Quetta/Miri-fort.jpg",
       "/Project-showcase/Quetta/Bolan-pass.jpg",
       "/Project-showcase/Quetta/Koh-e-chiltan.jpg",
