@@ -1,17 +1,25 @@
 {
   "files": {
     "main.css": "/ghallab/static/css/main.2623a6bd.css",
-    "main.js": "/ghallab/static/js/main.cc2782ce.js",
+    "main.js": "/ghallab/static/js/main.70667ebc.js",
+    "static/media/w17.jpg": "/ghallab/static/media/w17.75d79a78edd458d20e37.jpg",
     "static/media/faq-bannar.jpg": "/ghallab/static/media/faq-bannar.727ab19d4bfda5ba1af7.jpg",
+    "static/media/m14.jpg": "/ghallab/static/media/m14.640ccdaa8f75d42fa844.jpg",
+    "static/media/w18.jpg": "/ghallab/static/media/w18.7939f2c6690a0bc43ba5.jpg",
+    "static/media/w21.jpg": "/ghallab/static/media/w21.9d00bd6b035ab48f6c64.jpg",
+    "static/media/m22.jpg": "/ghallab/static/media/m22.dd0da2b296bc06dca8a8.jpg",
+    "static/media/m17.jpg": "/ghallab/static/media/m17.0084ead27e3956de88cd.jpg",
+    "static/media/w24.jpg": "/ghallab/static/media/w24.00297d331f9c9de74e5c.jpg",
     "static/media/hero-bg-image.jpg": "/ghallab/static/media/hero-bg-image.b4b52759c442b3f5a24f.jpg",
     "static/media/service-hero-bg.jpg": "/ghallab/static/media/service-hero-bg.9f9f75b88df6f3d162bb.jpg",
     "static/media/what-we-do.jpg": "/ghallab/static/media/what-we-do.1977b48bbe4f7217d79c.jpg",
+    "static/media/m20.jpg": "/ghallab/static/media/m20.72c38fd369054be5236f.jpg",
     "index.html": "/ghallab/index.html",
     "main.2623a6bd.css.map": "/ghallab/static/css/main.2623a6bd.css.map",
-    "main.cc2782ce.js.map": "/ghallab/static/js/main.cc2782ce.js.map"
+    "main.70667ebc.js.map": "/ghallab/static/js/main.70667ebc.js.map"
   },
   "entrypoints": [
     "static/css/main.2623a6bd.css",
-    "static/js/main.cc2782ce.js"
+    "static/js/main.70667ebc.js"
   ]
 }
