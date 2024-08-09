@@ -2,7 +2,7 @@ import { useEffect } from "react";import ServicesComponent from "./components/se
 
 const Services = () => {
   useEffect(() => {
-    document.title = "Servics - Homyz";
+    document.title = " خدماتُنا - غلّاب";
   }, []);
   return (
     <div className="overflow-hidden">

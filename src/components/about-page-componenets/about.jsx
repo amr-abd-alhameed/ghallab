@@ -1,4 +1,5 @@
-import React from "react";import Button from "../buttons-component/solidbutton";
+import React from "react";
+import Button from "../buttons-component/solidbutton";
 import { Link } from "react-router-dom";
 import { FaArrowRight } from "react-icons/fa";
 import { motion } from "framer-motion";
@@ -13,6 +14,8 @@ import "./about.css";
 import bg from "../../../src/assets/images/service-hero-bg.jpg";
 import logo1 from "../../../src/assets/images/what-we-do.jpg";
 import logo2 from "../../assets/images/faq-bannar.jpg";
+import special from "../../assets/images/maqbara/m20.jpg";
+
 const AboutPage = () => {
   return (
     <>
@@ -361,7 +364,7 @@ const AboutPage = () => {
           <div className="w-full max-lg:w-full h-full max-sm:max-h-[500px] ">
             <div className=" h-full w-full relative overflow-hidden rounded-lg">
               <img
-                src="/appriciation-section-image.jpg"
+                src={special}
                 className="absolute w-full h-full object-cover object-center "
                 alt=""
               />

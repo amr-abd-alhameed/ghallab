@@ -1,7 +1,14 @@
+import logo1 from "../assets/images/maqbara/w6.jpg";
+import logo2 from "../assets/images/maqbara/w7.jpg";
+import logo3 from "../assets/images/maqbara/w8.jpg";
+import logo4 from "../assets/images/maqbara/w17.jpg";
+import logo5 from "../assets/images/maqbara/w10.jpg";
+import logo6 from "../assets/images/maqbara/w11.jpg";
+
 export const servicesData = [
   {
     id: 1,
-    image: "/Services/images/it-consultancy.jpg",
+    image: logo1,
     title: "شراء مقابر",
     icon: "/Services/icons/it-consultancy-icon.png",
     shortDescription:
@@ -12,7 +19,7 @@ export const servicesData = [
   },
   {
     id: 2,
-    image: "/Services/images/cloud-migration.jpg",
+    image: logo2,
     title: " بيع مقابر",
     icon: "/Services/icons/cloud-migration-icon.png",
     shortDescription:
@@ -23,7 +30,7 @@ export const servicesData = [
   },
   {
     id: 3,
-    image: "/Services/images/poc-development.jpg",
+    image: logo3,
     title: "معاية المقابر",
     icon: "/Services/icons/poc-development-icon.png",
     shortDescription:
@@ -34,7 +41,7 @@ export const servicesData = [
   },
   {
     id: 4,
-    image: "/Services/images/smart-team.jpg",
+    image: logo4,
     title: "إدارة المقابر",
     icon: "/Services/icons/smart-team-icon.png",
     shortDescription:
@@ -45,7 +52,7 @@ export const servicesData = [
   },
   {
     id: 5,
-    image: "/Services/images/quality-assurance.jpg",
+    image: logo5,
     title: "صور و فيديوهات",
     icon: "/Services/icons/quality-assurance-icon.png",
     shortDescription:
@@ -56,7 +63,7 @@ export const servicesData = [
   },
   {
     id: 6,
-    image: "/Services/images/product-design.jpg",
+    image: logo6,
     title: "التصفّح المُريح",
     icon: "/Services/icons/product-design-icon.png",
     shortDescription:
