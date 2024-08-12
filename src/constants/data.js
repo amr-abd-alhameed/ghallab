@@ -1,23 +1,41 @@
-import logo1 from "../assets/images/maqbara/w21.jpg";
+import logo1 from "../assets/images/maqbara/w21.jpg";import logo12 from "../assets/images/maqbara/w25.jpg";
+import logo13 from "../assets/images/maqbara/w26.jpg";
+import logo21 from "../assets/images/maqbara/w19.jpg";
+
 import logo2 from "../assets/images/maqbara/w24.jpg";
+import logo31 from "../assets/images/maqbara/w14.jpg";
+import logo32 from "../assets/images/maqbara/w13.jpg";
+import logo23 from "../assets/images/maqbara/w15.jpg";
+
 import logo3 from "../assets/images/maqbara/m22.jpg";
+import logo43 from "../assets/images/maqbara/w3.jpg";
+import logo51 from "../assets/images/maqbara/w1.jpg";
+import logo52 from "../assets/images/maqbara/d9.jpg";
+
 import logo4 from "../assets/images/maqbara/w17.jpg";
+import logo41 from "../assets/images/maqbara/w5.jpg";
+import logo42 from "../assets/images/maqbara/w4.jpg";
+import logo53 from "../assets/images/maqbara/m23.jpg";
+
 import logo5 from "../assets/images/maqbara/w18.jpg";
+import logo10 from "../assets/images/maqbara/m14.jpg";
+import logo20 from "../assets/images/maqbara/m17.jpg";
+import logo30 from "../assets/images/maqbara/w17.jpg";
+
 import logo6 from "../assets/images/maqbara/w21.jpg";
+import logo40 from "../assets/images/maqbara/m22.jpg";
+import logo50 from "../assets/images/maqbara/w11.jpg";
+import logo60 from "../assets/images/maqbara/w17.jpg";
 
 export const rentHouses = [
   {
     id: 1,
     type: "فاخرة",
+    vip: "featured",
     mainImage: logo1,
-    moreImages: [
-      logo1,
-      "/Rent-houses/House-1/home1-3.jpg",
-      "/Rent-houses/House-1/home1-4.jpg",
-      "/Rent-houses/House-1/home1-5.jpg",
-    ],
+    moreImages: [logo1, logo12, logo13, logo21],
     name: "العاشر",
-    address: "DHA 9 City, Lahore, Pakistan",
+    address: "مدينة العاشر من رمضان بالقرب من القاهرة",
     price: 130000,
     details: [
       "4 Bedrooms",
@@ -30,20 +48,16 @@ export const rentHouses = [
       "Area: 10 marla",
     ],
     description:
-      "DHA 9 Housing Scheme A block 10 Marla New brand house available for sale Good location house near by hospital and market and masjid and LGS school and other facilities",
+      "تتميز المقبرة  ب:موقعها الاستراتيجي: تقع في العاشر من رمضان ، محاطة بالطبيعة الخضراء و الهدوء ، لِضمان الخصوصية و راحة البال.تصميمها الفريد: تُقدم مُجموعة مُتنوّعة من المقابر ، مع تصاميم راقية و مُختلفة ، لِتُناسب جميع الأذواق و الاحتياجات.خدمات متكاملة: نُوفّر لك جميع خدمات المقبرة ، من التجهيز و الدفن ، إلى الصيانة و التزيين",
   },
   {
     id: 2,
     type: "فاخرة",
+    vip: "featured",
     mainImage: logo2,
-    moreImages: [
-      logo2,
-      "/Rent-houses/House-2/home2-3.jpg",
-      "/Rent-houses/House-2/home2-4.jpg",
-      "/Rent-houses/House-2/home2-5.jpg",
-    ],
+    moreImages: [logo2, logo31, logo32, logo23],
     name: "السادات",
-    address: "Bahria Town, Karachi, Pakistan",
+    address: "السادات مصر",
     price: 100000,
     details: [
       "4 Bedrooms",
@@ -56,20 +70,16 @@ export const rentHouses = [
       "Area: 20 marla",
     ],
     description:
-      "Bahria Town 20 Marla New brand house available for sale Good location house near by hospital and market and masjid and school, park and other facilities in fully future developed society",
+      "تتميز المقبرة  ب:موقعها الاستراتيجي: تقع في السادات ، محاطة بالطبيعة الخضراء و الهدوء ، لِضمان الخصوصية و راحة البال.تصميمها الفريد: تُقدم مُجموعة مُتنوّعة من المقابر ، مع تصاميم راقية و مُختلفة ، لِتُناسب جميع الأذواق و الاحتياجات.خدمات متكاملة: نُوفّر لك جميع خدمات المقبرة ، من التجهيز و الدفن ، إلى الصيانة و التزيين",
   },
   {
     id: 3,
-    type: "مميزة  ",
+    type: "مميزة",
+    vip: "popular",
     mainImage: logo4,
-    moreImages: [
-      logo4,
-      "/Rent-houses/House-3/home3-3.jpg",
-      "/Rent-houses/House-3/home3-4.jpg",
-      "/Rent-houses/House-3/home3-5.jpg",
-    ],
+    moreImages: [logo4, logo43, logo51, logo52],
     name: "اكتوبر",
-    address: "Gulistan-e-Johar, Karachi, Pakistan",
+    address: "مدينة السادس من اكتوبر",
     price: 50000,
     details: [
       "Gulistan-e-Johar Block 7",
@@ -82,20 +92,16 @@ export const rentHouses = [
       "Area: 950 sqr.feet",
     ],
     description:
-      "Apartment in installment (View phone number) Sqfeet VIP location near to park and masjid Gulistan-e-Johar karachi. You can find a Flat on the lower or upper levels, as suiting to your requirement. Buying property is a one-time life decision and we can help you with it. 950 Square Feet sized residential or commercial property is best for investment purposes. All your queries concerned with this property are welcome, so please contact us.",
+      "تتميز المقبرة  ب:موقعها الاستراتيجي: تقع في السادس من اكتوبر ، محاطة بالطبيعة الخضراء و الهدوء ، لِضمان الخصوصية و راحة البال.تصميمها الفريد: تُقدم مُجموعة مُتنوّعة من المقابر ، مع تصاميم راقية و مُختلفة ، لِتُناسب جميع الأذواق و الاحتياجات.خدمات متكاملة: نُوفّر لك جميع خدمات المقبرة ، من التجهيز و الدفن ، إلى الصيانة و التزيين",
   },
   {
     id: 4,
-    type: "مميزة  ",
+    type: "مميزة",
+    vip: "popular",
     mainImage: logo5,
-    moreImages: [
-      logo5,
-      "/Rent-houses/House-4/home4-3.jpg",
-      "/Rent-houses/House-4/home4-4.jpg",
-      "/Rent-houses/House-4/home4-5.jpg",
-    ],
+    moreImages: [logo5, logo41, logo42, logo53],
     name: "الرحاب",
-    address: "Blue Area, F-3, Islamabad, Pakistan",
+    address: "مدينة الرحاب",
     price: 135000,
     details: [
       "Location: Isra Tower",
@@ -108,20 +114,16 @@ export const rentHouses = [
       "Area: 1,100 sqr.feet",
     ],
     description:
-      "The Flat is well designed to accommodate the family and their guests. When it comes to housing, location is everything and we have quite a many options regarding that. The perfect 1,1000 Square Feet listing for your property needs are right within your reach.",
+      "تتميز المقبرة  ب:موقعها الاستراتيجي: تقع في العاشر من رمضان ، محاطة بالطبيعة الخضراء و الهدوء ، لِضمان الخصوصية و راحة البال.تصميمها الفريد: تُقدم مُجموعة مُتنوّعة من المقابر ، مع تصاميم راقية و مُختلفة ، لِتُناسب جميع الأذواق و الاحتياجات.خدمات متكاملة: نُوفّر لك جميع خدمات المقبرة ، من التجهيز و الدفن ، إلى الصيانة و التزيين",
   },
   {
     id: 5,
-    type: "مميزة  ",
+    type: "مميزة",
+    vip: "popular",
     mainImage: logo6,
-    moreImages: [
-      logo6,
-      "/Rent-houses/House-5/home5-3.jpg",
-      "/Rent-houses/House-5/home5-4.jpg",
-      "/Rent-houses/House-5/home5-5.jpg",
-    ],
+    moreImages: [logo6, logo10, logo20, logo30],
     name: "مصر الجديدة",
-    address: "Saadi Town, Faisalabad, Pakistan",
+    address: "مصر الجديدة",
     price: 95000,
     details: [
       "Bunglow at saadi town scheme",
@@ -134,20 +136,16 @@ export const rentHouses = [
       "Area: 120 sqr.yards",
     ],
     description:
-      "Saadi Town Brand New Project Banglow Double Story 120 Sq Yards Bedrooms with attach baths Drawing Lounge open American Kitchen Washing area Huge Terrace Tiles Flooring Fancy lights Complete Boundary wall project Daily Sweet line Water No Load Shedding gas Security Guards Masjid Park Pure Family Environment Main Road approach Ideal Location",
+      "تتميز المقبرة  ب:موقعها الاستراتيجي: تقع في العاشر من رمضان ، محاطة بالطبيعة الخضراء و الهدوء ، لِضمان الخصوصية و راحة البال.تصميمها الفريد: تُقدم مُجموعة مُتنوّعة من المقابر ، مع تصاميم راقية و مُختلفة ، لِتُناسب جميع الأذواق و الاحتياجات.خدمات متكاملة: نُوفّر لك جميع خدمات المقبرة ، من التجهيز و الدفن ، إلى الصيانة و التزيين",
   },
   {
     id: 6,
     type: "فاخرة",
+    vip: "featured",
     mainImage: logo3,
-    moreImages: [
-      logo3,
-      "/Rent-houses/House-6/home6-3.jpg",
-      "/Rent-houses/House-6/home6-4.jpg",
-      "/Rent-houses/House-6/home6-5.jpg",
-    ],
+    moreImages: [logo3, logo40, logo50, logo60],
     name: "اكتوبر",
-    address: "Bahria Town, Karachi, Pakistan",
+    address: "السادس من اكتوبر",
     price: 120000,
     details: [
       "Bahria Villas, Bahria Town, Karachi",
@@ -160,6 +158,6 @@ export const rentHouses = [
       "Area: 120 sqr.yards",
     ],
     description:
-      "The Best Design As Per Your Desire And Your Dream House a Well Designed House In A Posh Location Is All You Need To Live Your Best Life. Right Now Is The Time To Buy This Property. This Property In Bahria Town is an Opportunity For The Investors And Buyers Alike, So Make The Most Out Of It. Bahria Town S Unique Features Bahria Town Is A Secure Community 24 7 Electricity Available Under Ground Electricity WiringGrand Jamia Masjid Petrol Pump Feel Free To Contact For Further Details",
+      "تتميز المقبرة  ب:موقعها الاستراتيجي: تقع في العاشر من رمضان ، محاطة بالطبيعة الخضراء و الهدوء ، لِضمان الخصوصية و راحة البال.تصميمها الفريد: تُقدم مُجموعة مُتنوّعة من المقابر ، مع تصاميم راقية و مُختلفة ، لِتُناسب جميع الأذواق و الاحتياجات.خدمات متكاملة: نُوفّر لك جميع خدمات المقبرة ، من التجهيز و الدفن ، إلى الصيانة و التزيين",
   },
 ];

@@ -1,5 +1,4 @@
-import "./exculusiveCard.css";
-import Button from "../buttons-component/solidbutton";
+import "./exculusiveCard.css";import Button from "../buttons-component/solidbutton";
 import { Link } from "react-router-dom";
 import { formatCompactNumber } from "../../constants/formatNumber";
 import { scrollToTop } from "../../constants/scrollToTop";
@@ -11,6 +10,7 @@ const ExculusivePropertyCard = ({
   pricing,
   imgSrc,
   type,
+  vip,
   href,
   cardHeight,
   bgColor,
@@ -23,6 +23,7 @@ const ExculusivePropertyCard = ({
         src={imgSrc}
         className="absolute w-full h-full object-cover object-center hover transition-all duration-500"
         alt=""
+        loading="lazy"
       />
       <div className="absolute w-full h-full bg-black/50 "></div>
       <motion.div
@@ -41,7 +42,10 @@ const ExculusivePropertyCard = ({
       >
         {/* <a href="" className="absolute w-full h-full block "></a> */}
       </Link>
-      <Link onClick={scrollToTop} to={`/${type}`}>
+      <Link
+        onClick={scrollToTop}
+        to={type == "فاخرة" ? "/featured" : "/popular"}
+      >
         <Button
           content={type}
           fontSize={"text-xl"}
@@ -59,7 +63,10 @@ const ExculusivePropertyCard = ({
           <span className="title-font">{titlePart2}</span>
         </Link>
         <hr />
-        <p className="text-lg">{formatCompactNumber(pricing)} السعر</p>
+        <p className="text-lg">
+          السعر : جنية {"  "}
+          {formatCompactNumber(pricing)}{" "}
+        </p>
       </div>
     </div>
   );

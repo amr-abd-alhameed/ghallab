@@ -2,14 +2,18 @@ import { motion } from "framer-motion";import { rentHouses } from "../../constan
 import ExculusivePropertyCard from "../home-page-components/exculusivePropertyCard";
 import { animationVariants } from "../../constants/animationVariants";
 import { useEffect } from "react";
+import bg from "../../assets/images/hero-bg-image.jpg";
 
 const Popular = () => {
   useEffect(() => {
-    document.title = "Popular - Homyz";
+    document.title = " مقابر مميزة - غلاب";
   }, []);
   return (
     <div className="overflow-hidden">
-      <div className=" bg-no-repeat bg-center bg-cover pt-44 pb-36 max-md:pt-36 max-md:pb-24 flex justify-center items-center text-white ">
+      <div
+        style={{ backgroundImage: "url(" + bg + ")" }}
+        className=" bg-no-repeat bg-center bg-cover pt-44 pb-36 max-md:pt-36 max-md:pb-24 flex justify-center items-center text-white "
+      >
         <motion.h1
           initial="initial"
           whileInView="animate"
@@ -17,7 +21,7 @@ const Popular = () => {
           viewport={{ once: true, amount: 0.2 }}
           className="text-6xl max-md:text-5xl font-semibold"
         >
-          Popular
+          مميزة
         </motion.h1>
       </div>
       <div
@@ -25,13 +29,13 @@ const Popular = () => {
         className="mx-auto gap-10 grid grid-rows-2 grid-cols-2  max-sm:grid-cols-1 max-sm:grid-rows-3 p-10 max-md:px-5 "
       >
         {rentHouses.map((e, i) => {
-          if (e.type === "popular") {
+          if (e.type === "مميزة") {
             return (
               <ExculusivePropertyCard
                 href={e.id}
                 imgSrc={e.mainImage}
                 pricing={e.price}
-                titlePart1={"House in "}
+                titlePart1={"مقابر "}
                 titlePart2={e.name}
                 type={e.type}
                 key={i}
