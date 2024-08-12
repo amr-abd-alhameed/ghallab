@@ -1,25 +1,46 @@
 {
   "files": {
-    "main.css": "/ghallab/static/css/main.2623a6bd.css",
-    "main.js": "/ghallab/static/js/main.70667ebc.js",
+    "main.css": "/ghallab/static/css/main.d573f134.css",
+    "main.js": "/ghallab/static/js/main.9650c9a9.js",
+    "static/media/m21.jpg": "/ghallab/static/media/m21.35856c59df144994c907.jpg",
+    "static/media/w7.jpg": "/ghallab/static/media/w7.fea637d68d261a40078e.jpg",
+    "static/media/w1.jpg": "/ghallab/static/media/w1.45e17714e7bfe48fe5fd.jpg",
     "static/media/w17.jpg": "/ghallab/static/media/w17.75d79a78edd458d20e37.jpg",
     "static/media/faq-bannar.jpg": "/ghallab/static/media/faq-bannar.727ab19d4bfda5ba1af7.jpg",
     "static/media/m14.jpg": "/ghallab/static/media/m14.640ccdaa8f75d42fa844.jpg",
+    "static/media/w6.jpg": "/ghallab/static/media/w6.09c58ebce1d0980592a5.jpg",
     "static/media/w18.jpg": "/ghallab/static/media/w18.7939f2c6690a0bc43ba5.jpg",
+    "static/media/w23.jpg": "/ghallab/static/media/w23.e7d4615da6aec0b41319.jpg",
+    "static/media/w14.jpg": "/ghallab/static/media/w14.0518114f8090cb14c187.jpg",
+    "static/media/w25.jpg": "/ghallab/static/media/w25.c26ffe10cb221e0ee607.jpg",
     "static/media/w21.jpg": "/ghallab/static/media/w21.9d00bd6b035ab48f6c64.jpg",
+    "static/media/w5.jpg": "/ghallab/static/media/w5.8eb48425c5c7d179771f.jpg",
+    "static/media/w8.jpg": "/ghallab/static/media/w8.fd2a0994aa861a2c7aac.jpg",
+    "static/media/w3.jpg": "/ghallab/static/media/w3.527c9b4a6ffb4e91eae9.jpg",
     "static/media/m22.jpg": "/ghallab/static/media/m22.dd0da2b296bc06dca8a8.jpg",
+    "static/media/w11.jpg": "/ghallab/static/media/w11.2ad4e6bc9896db844344.jpg",
     "static/media/m17.jpg": "/ghallab/static/media/m17.0084ead27e3956de88cd.jpg",
     "static/media/w24.jpg": "/ghallab/static/media/w24.00297d331f9c9de74e5c.jpg",
+    "static/media/w19.jpg": "/ghallab/static/media/w19.8bd1cf6f4d22670d4e17.jpg",
+    "static/media/w10.jpg": "/ghallab/static/media/w10.30439843ef5e4d9b1598.jpg",
+    "static/media/w13.jpg": "/ghallab/static/media/w13.cb2e61f525f8b8391f1e.jpg",
+    "static/media/m23.jpg": "/ghallab/static/media/m23.6202d7361377a91eebb1.jpg",
+    "static/media/d6.jpg": "/ghallab/static/media/d6.953f7b4ebf31287f31f1.jpg",
+    "static/media/w4.jpg": "/ghallab/static/media/w4.7d950adcac9f4da1d04c.jpg",
+    "static/media/w16.jpg": "/ghallab/static/media/w16.7750d2dd0fa4eb2bd4a7.jpg",
+    "static/media/w15.jpg": "/ghallab/static/media/w15.b3a3b39a55b0eda82eb6.jpg",
+    "static/media/w12.jpg": "/ghallab/static/media/w12.5d3ef5b9865447bc0ed3.jpg",
+    "static/media/w26.jpg": "/ghallab/static/media/w26.4baf7cc9bdb77c0fb9a2.jpg",
     "static/media/hero-bg-image.jpg": "/ghallab/static/media/hero-bg-image.b4b52759c442b3f5a24f.jpg",
     "static/media/service-hero-bg.jpg": "/ghallab/static/media/service-hero-bg.9f9f75b88df6f3d162bb.jpg",
     "static/media/what-we-do.jpg": "/ghallab/static/media/what-we-do.1977b48bbe4f7217d79c.jpg",
     "static/media/m20.jpg": "/ghallab/static/media/m20.72c38fd369054be5236f.jpg",
     "index.html": "/ghallab/index.html",
-    "main.2623a6bd.css.map": "/ghallab/static/css/main.2623a6bd.css.map",
-    "main.70667ebc.js.map": "/ghallab/static/js/main.70667ebc.js.map"
+    "main.d573f134.css.map": "/ghallab/static/css/main.d573f134.css.map",
+    "main.9650c9a9.js.map": "/ghallab/static/js/main.9650c9a9.js.map"
   },
   "entrypoints": [
-    "static/css/main.2623a6bd.css",
-    "static/js/main.70667ebc.js"
+    "static/css/main.d573f134.css",
+    "static/js/main.9650c9a9.js"
   ]
 }
