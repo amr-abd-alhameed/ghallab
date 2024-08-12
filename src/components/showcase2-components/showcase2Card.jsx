@@ -1,5 +1,4 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React from "react";import { Link } from "react-router-dom";
 import { scrollToTop } from "../../constants/scrollToTop";
 import { motion } from "framer-motion";
 import { animationVariants } from "../../constants/animationVariants";
@@ -22,7 +21,12 @@ const Showcase2Card = ({ src, href, title }) => {
           {title}
         </Link>
       </div>
-      <img className="w-full h-full object-cover" src={src} alt="img" />
+      <img
+        className="w-full h-full object-cover"
+        loading="lazy"
+        src={src}
+        alt="img"
+      />
     </motion.div>
   );
 };

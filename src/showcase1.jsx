@@ -1,9 +1,8 @@
-import { useEffect } from "react";
-import Section from "./components/showcase1-components/section";
+import { useEffect } from "react";import Section from "./components/showcase1-components/section";
 import { showCase } from "./constants/showcase";
 const Showcase1 = () => {
   useEffect(() => {
-    document.title = "Showcase 1 - Homyz";
+    document.title = "صالة عرض 1 - غلّاب";
   }, []);
   return (
     <div className="overflow-hidden">

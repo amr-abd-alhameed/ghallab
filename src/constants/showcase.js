@@ -1,22 +1,42 @@
 import logo1 from "../assets/images/maqbara/m14.jpg";
+import logo11 from "../assets/images/maqbara/w23.jpg";
+import logo12 from "../assets/images/maqbara/w25.jpg";
+import logo13 from "../assets/images/maqbara/w26.jpg";
+
 import logo2 from "../assets/images/maqbara/m17.jpg";
-import logo3 from "../assets/images/maqbara/m20.jpg";
+import logo21 from "../assets/images/maqbara/w19.jpg";
+import logo22 from "../assets/images/maqbara/w16.jpg";
+import logo23 from "../assets/images/maqbara/w15.jpg";
+
+import logo3 from "../assets/images/maqbara/w17.jpg";
+import logo31 from "../assets/images/maqbara/w14.jpg";
+import logo32 from "../assets/images/maqbara/w13.jpg";
+import logo33 from "../assets/images/maqbara/w12.jpg";
+
 import logo4 from "../assets/images/maqbara/m22.jpg";
+import logo41 from "../assets/images/maqbara/w5.jpg";
+import logo42 from "../assets/images/maqbara/w4.jpg";
+import logo43 from "../assets/images/maqbara/w3.jpg";
+
+import logo5 from "../assets/images/maqbara/w11.jpg";
+import logo51 from "../assets/images/maqbara/w1.jpg";
+import logo52 from "../assets/images/maqbara/d9.jpg";
+import logo53 from "../assets/images/maqbara/m23.jpg";
+
+import logo6 from "../assets/images/maqbara/w17.jpg";
+import logo61 from "../assets/images/maqbara/d6.jpg";
+import logo62 from "../assets/images/maqbara/d7.jpg";
+import logo63 from "../assets/images/maqbara/m21.jpg";
 export const showCase = [
   {
     id: 1,
     city: "اكتوبر 6",
     shortDescription:
-      "Karachi 'The City of Lights', the vibrant metropolis on the shores of the Arabian Sea, is a melting pot of diverse cultures, bustling with energy.",
+      "غلاب: المكان الذي يضمن لك راحة البال في وداع أحبائك. نقدم لك مجموعة متنوعة من المقابر، تُلبّي احتياجاتك و رغباتك.",
     description:
-      "Karachi: Karachi is the largest and most populous city in Pakistan, located on the southern coast of the country. It is known as the financial and economic hub of Pakistan, with a bustling metropolitan atmosphere. Karachi is home to a diverse population, vibrant markets, and a lively food scene. It also boasts beautiful beaches along the Arabian Sea, historical landmarks, and a thriving arts and entertainment scene.",
+      "غلاب: المكان الذي يضمن لك راحة البال في وداع أحبائك. نقدم لك مجموعة متنوعة من المقابر، تُلبّي احتياجاتك و رغباتك.",
     coverImage: logo1,
-    moreImages: [
-      logo1,
-      "/Project-showcase/Karachi/City-view.jpg",
-      "/Project-showcase/Karachi/Kharadar-street.jpg",
-      "/Project-showcase/Karachi/Flyover-view.jpg",
-    ],
+    moreImages: [logo1, logo12, logo13, logo11],
     prevHref: "/projects/6",
     nextHref: "/projects/2",
   },
@@ -24,16 +44,12 @@ export const showCase = [
     id: 2,
     city: "السادات",
     shortDescription:
-      "Islamabad, the serene capital of Pakistan, is nestled among picturesque hills, renowned for its well-planned infrastructure and green spaces.",
+      "غَلاَب: الراحة الأبدية لأحبائك في مُقرّ يليق بِهم.استكشف مُجموعة مُختارة من المقابر ، و أحجز ما يناسب احتياجاتك",
+
     description:
-      "Islamabad: Islamabad is the capital city of Pakistan, nestled in the Margalla Hills in the northern part of the country. It is a modern and planned city, known for its wide, tree-lined avenues, spacious parks, and serene beauty. Islamabad is home to the country's government institutions, diplomatic enclaves, and a growing technology and business sector. The city also offers a range of recreational activities, including hiking trails, golf courses, and cultural festivals.",
+      "غَلاَب: الراحة الأبدية لأحبائك في مُقرّ يليق بِهم.استكشف مُجموعة مُختارة من المقابر ، و أحجز ما يناسب احتياجاتك",
     coverImage: logo2,
-    moreImages: [
-      logo2,
-      "/Project-showcase/Islamabad/Lotus-temple.jpg",
-      "/Project-showcase/Islamabad/Margala-hills.jpg",
-      "/Project-showcase/Islamabad/Islamabad-murre-highway.jpg",
-    ],
+    moreImages: [logo2, logo21, logo22, logo23],
     prevHref: "/projects/1",
     nextHref: "/projects/5",
   },
@@ -41,16 +57,12 @@ export const showCase = [
     id: 3,
     city: "الرحاب",
     shortDescription:
-      "Lahore, the cultural heart of Pakistan, captivates visitors with its grand Mughal architecture, making it a city that embraces history, art, and a vibrant zest for life.",
+      "غَلاَب: مكان يُقدّر حُبّك لِأحبائك و يُخَلّد ذكراهم بِشكل لائق.نُقدّم لك مُجموعة مُتنوّعة من خدمات المقبرة ، لِضمان راحة بالك.",
+
     description:
-      "Lahore: Lahore is the cultural capital of Pakistan, situated in the eastern province of Punjab. It is renowned for its rich history, Mughal-era architecture, and vibrant traditions. Lahore is home to many historical sites, including the iconic Badshahi Mosque and Lahore Fort. The city is also known for its love of arts, literature, and music, with numerous festivals and cultural events taking place throughout the year.",
+      "غَلاَب: مكان يُقدّر حُبّك لِأحبائك و يُخَلّد ذكراهم بِشكل لائق.نُقدّم لك مُجموعة مُتنوّعة من خدمات المقبرة ، لِضمان راحة بالك.",
     coverImage: logo3,
-    moreImages: [
-      logo3,
-      "/Project-showcase/Lahore/Royal-fort.jpg",
-      "/Project-showcase/Lahore/Rose-garden-fc.jpg",
-      "/Project-showcase/Lahore/Walled-city.jpg",
-    ],
+    moreImages: [logo3, logo31, logo32, logo33],
     prevHref: "/projects/2",
     nextHref: "/projects/4",
   },
@@ -58,50 +70,37 @@ export const showCase = [
     id: 4,
     city: "التجمع",
     shortDescription:
-      "Quetta, the captivating city nestled in the rugged mountains of Balochistan, enchants with its breathtaking natural beauty and landscapes.",
+      "غَلاَب: ضمان راحة البال لِمن تُحب في مُقرّهم الأخير.تعرّف على مُجموعة واسعة من الخدمات المُتاحة ، و اختار الأنسب لِاحتياجاتك.",
+
     description:
-      "Quetta: Quetta is the provincial capital of Balochistan, located in southwestern Pakistan. It is surrounded by rugged mountains and serves as a gateway to the famous Bolan Pass. Quetta has a distinctive culture influenced by its proximity to Afghanistan and Iran. The city is known for its dry, arid climate and serves as a trading center for fruits, particularly apples. Quetta is also a starting point for exploring the scenic beauty of the province, including the Ziarat Valley and Hanna Lake.",
+      "غَلاَب: ضمان راحة البال لِمن تُحب في مُقرّهم الأخير.تعرّف على مُجموعة واسعة من الخدمات المُتاحة ، و اختار الأنسب لِاحتياجاتك.",
     coverImage: logo4,
-    moreImages: [
-      logo4,
-      "/Project-showcase/Quetta/Miri-fort.jpg",
-      "/Project-showcase/Quetta/Bolan-pass.jpg",
-      "/Project-showcase/Quetta/Koh-e-chiltan.jpg",
-    ],
+    moreImages: [logo4, logo41, logo42, logo43],
     prevHref: "/projects/3",
     nextHref: "/projects/5",
   },
   {
     id: 5,
-    city: "Peshawar",
+    city: "مقابر الجيش",
     shortDescription:
-      "Peshawar, the historic city in Khyber Pakhtunkhwa province, carries a rich cultural heritage with its bustling markets, ancient landmarks.",
+      "عند اختيارك لِمأوى أبدي لِمن تُحب، تبحث عن الأمان والتكريم.نحن في موقع غلّاب نُقدّم لك ذلك و أكثر!",
+
     description:
-      "Peshawar: Peshawar is a city located in the Khyber Pakhtunkhwa province of Pakistan, close to the country's western border with Afghanistan. It is one of the oldest continuously inhabited cities in the world and has a unique blend of cultures and traditions. Peshawar is known for its bustling bazaars, where one can find traditional handicrafts, spices, and vibrant street food. The city is also a gateway to the scenic beauty of the Khyber Pass and the nearby tribal areas.",
-    coverImage: "/Project-showcase/Peshawar/Baab-e-khyber.jpg",
-    moreImages: [
-      "/Project-showcase/Peshawar/Islamia-college.jpg",
-      "/Project-showcase/Peshawar/Sir-cunningham-clock-tower.jpg",
-      "/Project-showcase/Peshawar/Sethi-house.jpg",
-      "/Project-showcase/Peshawar/Peshawar-museum.jpg",
-    ],
+      "عند اختيارك لِمأوى أبدي لِمن تُحب، تبحث عن الأمان والتكريم.نحن في موقع غلّاب نُقدّم لك ذلك و أكثر!",
+    coverImage: logo5,
+    moreImages: [logo5, logo51, logo52, logo53],
     prevHref: "/projects/4",
     nextHref: "/projects/6",
   },
   {
     id: 6,
-    city: "Murree",
+    city: "الشيخ زايد",
     shortDescription:
-      "Murree, the charming hill station in the foothills of the Himalayas, allures visitors with its cool climate, verdant forests, and panoramic views.",
+      "الموقع الأفضل لاختيار مقبرة مميزة في مصر. لدينا مجموعة متنوعة من المقابر الفاخرة والمتوسطة بسعر مناسب، مع ضمان راحة بال تامة في اختيار مأوى لِمن تُحب.",
     description:
-      "Murree: Murree is a hill station situated in the Pir Panjal Range of the Himalayas, just outside Islamabad. It is a popular tourist destination known for its cool climate, scenic beauty, and lush green hills. Murree offers breathtaking views, picturesque landscapes, and a pleasant escape from the summer heat of the plains. The town is dotted with colonial-era buildings, bustling markets, and charming guesthouses, making it a favored retreat for locals and tourists alike.",
-    coverImage: "/Project-showcase/Murree/Hills-view.jpg",
-    moreImages: [
-      "/Project-showcase/Murree/Attabad-lake.jpg",
-      "/Project-showcase/Murree/Chair-lifts.jpg",
-      "/Project-showcase/Murree/Jhika-gali.jpg",
-      "/Project-showcase/Murree/Murree-city.jpg",
-    ],
+      "الموقع الأفضل لاختيار مقبرة مميزة في مصر. لدينا مجموعة متنوعة من المقابر الفاخرة والمتوسطة بسعر مناسب، مع ضمان راحة بال تامة في اختيار مأوى لِمن تُحب.",
+    coverImage: logo6,
+    moreImages: [logo6, logo61, logo62, logo63],
     prevHref: "/projects/5",
     nextHref: "/projects/1",
   },

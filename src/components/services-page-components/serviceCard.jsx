@@ -1,4 +1,5 @@
-import { motion } from "framer-motion";import React from "react";
+import { motion } from "framer-motion";
+import React from "react";
 import { FaArrowRight } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import { animationVariants } from "../../constants/animationVariants";
@@ -17,6 +18,7 @@ const ServiceCard = ({ id, title, imgSrc, iconSrc, brief }) => {
         src={imgSrc}
         className="w-full h-full absolute object-cover"
         alt={imgSrc}
+        loading="lazy"
       />
       <div className="w-full h-full absolute bg-black/50"></div>
       <div className="it-container px-4 w-full h-full absolute text-white hover:bg-red-500 transition-all duration-500 flex flex-col justify-center items-center gap-2">

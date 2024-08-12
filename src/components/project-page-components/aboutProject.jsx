@@ -21,7 +21,10 @@ const AboutProject = ({ heroImageSrc, attachment }) => {
   }, [param]);
   return (
     <div className="overflow-hidden">
-      <div className={`h-screen relative   bg-top bg-no-repeat bg-cover`}>
+      <div
+        style={{ backgroundImage: "url(" + heroImageSrc + ")" }}
+        className={`h-screen relative ${attachment}  bg-top bg-no-repeat bg-cover`}
+      >
         <div className="absolute top-0 right-0 bottom-0 left-0 flex justify-center items-center bg-black/50">
           <motion.h1
             initial="initial"
@@ -112,7 +115,7 @@ const AboutProject = ({ heroImageSrc, attachment }) => {
         className="text-lg mx-auto p-10 max-sm:px-5 max-sm:pt-5  max-sm:mb-8 mb-20"
       >
         <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam
+          عمرو ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam
           dolorum enim, veniam totam eius tempora facere assumenda! Iste quod,
           assumenda totam fugiat omnis, similique maxime magnam nulla inventore
           et suscipit sapiente? Exercitationem assumenda mollitia neque quaerat
@@ -184,6 +187,7 @@ const AboutProject = ({ heroImageSrc, attachment }) => {
                 style={{ height: 420 }}
                 src={e}
                 alt="e"
+                loading="lazy"
               />
             </motion.div>
           );

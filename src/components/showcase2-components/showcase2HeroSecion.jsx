@@ -1,4 +1,5 @@
-import React from "react";import { animationVariants } from "../../constants/animationVariants";
+import React from "react";
+import { animationVariants } from "../../constants/animationVariants";
 import { motion } from "framer-motion";
 const ShowCase2HeroSection = () => {
   return (
@@ -10,7 +11,7 @@ const ShowCase2HeroSection = () => {
         viewport={{ once: true, amount: 0.2 }}
         className="text-6xl max-sm:text-5xl text-center font-semibold "
       >
-        Show Case 2
+        صالة عرض 2
       </motion.h1>
     </div>
   );

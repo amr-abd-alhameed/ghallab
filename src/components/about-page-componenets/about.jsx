@@ -1,5 +1,4 @@
-import React from "react";
-import Button from "../buttons-component/solidbutton";
+import React from "react";import Button from "../buttons-component/solidbutton";
 import { Link } from "react-router-dom";
 import { FaArrowRight } from "react-icons/fa";
 import { motion } from "framer-motion";
@@ -78,7 +77,12 @@ const AboutPage = () => {
               </Link>
             </div>
             <div className="w-full">
-              <img src={logo1} className="w-full h-full" alt="" />
+              <img
+                src={logo1}
+                loading="lazy"
+                className="w-full h-full"
+                alt=""
+              />
             </div>
           </div>
           <div className="what-we-do-cards mt-14 gap-8 max-md:grid-cols-1 max-md:grid-rows-3 grid grid-cols-3 grid-rows-1">
@@ -367,6 +371,7 @@ const AboutPage = () => {
                 src={special}
                 className="absolute w-full h-full object-cover object-center "
                 alt=""
+                // loading="lazy"
               />
               <div className="absolute w-full h-full bg-black/50 "></div>
               <motion.div
