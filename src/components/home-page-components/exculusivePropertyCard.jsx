@@ -1,4 +1,5 @@
-import "./exculusiveCard.css";import Button from "../buttons-component/solidbutton";
+import "./exculusiveCard.css";
+import Button from "../buttons-component/solidbutton";
 import { Link } from "react-router-dom";
 import { formatCompactNumber } from "../../constants/formatNumber";
 import { scrollToTop } from "../../constants/scrollToTop";
@@ -64,8 +65,8 @@ const ExculusivePropertyCard = ({
         </Link>
         <hr />
         <p className="text-lg">
-          السعر : جنية {"  "}
-          {formatCompactNumber(pricing)}{" "}
+          السعر : {"  "}
+          {formatCompactNumber(pricing)} جنية
         </p>
       </div>
     </div>

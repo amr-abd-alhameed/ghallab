@@ -1,5 +1,4 @@
-import React, { useContext, useEffect, useState } from "react";
-import {
+import React, { useContext, useEffect, useState } from "react";import {
   NumberInput,
   NumberInputField,
   NumberInputStepper,
@@ -14,6 +13,11 @@ import { animationVariants } from "../../constants/animationVariants";
 import { useParams } from "react-router";
 import { rentHouses } from "../../constants/data";
 import ExculusivePropertyCard from "../home-page-components/exculusivePropertyCard";
+import { Link } from "react-router-dom";
+import { scrollToTop } from "../../constants/scrollToTop";
+
+import Button from "../buttons-component/solidbutton";
+
 const Product = ({
   id,
   title,
@@ -106,13 +110,31 @@ const Product = ({
             <h1 className="text-5xl font-semibold">House in {title}</h1>
             <p className="details text-2xl">{descr}</p>
             <div>
-              <h2 className="text-xl text-red-500 font-semibold">Price:</h2>
+              <h2 className="text-xl text-red-500 font-semibold">السعر</h2>
               <h2 className="text-2xl mt-2 font-semibold">
-                PKR {formatCompactNumber(price)}/Month
+                {formatCompactNumber(price)} جنية
               </h2>
             </div>
             <div className="flex flex-col gap-2">
-              <h2 className="text-xl text-red-500 font-semibold">Quantity</h2>
+              {/* <Link
+                to={"/contact"}
+                className="mt-4 max-lg:w-72 max-sm:w-full text-center p-4 rounded-sm"
+                style={{
+                  backgroundColor: "#d5515e",
+                  borderColor: "#d5515e",
+                  color: "white",
+                }}
+              >
+                اشتري الآن
+              </Link> */}
+              <Link onClick={scrollToTop} to="/contact">
+                <Button
+                  content={"اشتري الآن"}
+                  fontSize={"text-xl"}
+                  fontWeight={""}
+                  padding={"px-5  py-2"}
+                />
+              </Link>
 
               {/* <Button
                 // _hover={{ borderColor: "#d5515e" }}
@@ -131,7 +153,7 @@ const Product = ({
               </Button> */}
             </div>
             <div className="flex text-xl flex-col gap-2">
-              <h2 className=" text-red-500 font-semibold">Details</h2>
+              <h2 className=" text-red-500 font-semibold">تفاصيل المقبرة</h2>
               <p>{descr}</p>
               <ul className="list-disc list-inside ml-2">
                 {details.map((e, i) => {
@@ -153,7 +175,7 @@ const Product = ({
           viewport={{ once: true, amount: 0.2 }}
           className="text-4xl font-semibold"
         >
-          Just For You
+          بس عشانك
         </motion.h1>
         <div className="grid grid-cols-2 grid-rows-3 max-sm:grid-cols-1 max-sm:grid-rows-5 gap-5 mt-10">
           {otherItems.map((e, i) => {
@@ -168,7 +190,7 @@ const Product = ({
               >
                 <ExculusivePropertyCard
                   imgSrc={e.mainImage}
-                  titlePart1={"House in "}
+                  titlePart1={"مقابر  "}
                   titlePart2={e.name}
                   pricing={e.price}
                   href={e.id}

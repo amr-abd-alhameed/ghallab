@@ -1,5 +1,4 @@
-import { FaAngleDown, FaBars, FaShoppingCart } from "react-icons/fa";
-import "./navbar.css";
+import { FaAngleDown, FaBars, FaShoppingCart } from "react-icons/fa";import "./navbar.css";
 import Logo from "../../assets/images/Homyz-logo.png";
 import Logo2 from "../../assets/images/Homyz-logo2.png";
 
@@ -239,7 +238,7 @@ const NavBar = ({ navBar2, showCase1Page }) => {
           style={{ maxWidth: 1200 }}
           className="flex justify-between mx-auto items-center gap-4 py-7 max-md:py-5 px-10 max-sm:px-5 font-medium"
         >
-          <Link onClick={scrollToTop} to="/">
+          <Link onClick={scrollToTop} to="/gallab">
             <p className="w-44 font-bold	text-3xl text-red-500	 max-lg:w-36">
               موقع غلاب
             </p>
