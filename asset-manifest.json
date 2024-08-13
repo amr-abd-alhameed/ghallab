@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ghallab/static/css/main.d573f134.css",
-    "main.js": "/ghallab/static/js/main.0ec8fd7a.js",
+    "main.css": "/ghallab/static/css/main.4c7b01f6.css",
+    "main.js": "/ghallab/static/js/main.6eb3f667.js",
     "static/media/m21.jpg": "/ghallab/static/media/m21.35856c59df144994c907.jpg",
     "static/media/w7.jpg": "/ghallab/static/media/w7.fea637d68d261a40078e.jpg",
     "static/media/w1.jpg": "/ghallab/static/media/w1.45e17714e7bfe48fe5fd.jpg",
@@ -36,11 +36,11 @@
     "static/media/what-we-do.jpg": "/ghallab/static/media/what-we-do.1977b48bbe4f7217d79c.jpg",
     "static/media/m20.jpg": "/ghallab/static/media/m20.72c38fd369054be5236f.jpg",
     "index.html": "/ghallab/index.html",
-    "main.d573f134.css.map": "/ghallab/static/css/main.d573f134.css.map",
-    "main.0ec8fd7a.js.map": "/ghallab/static/js/main.0ec8fd7a.js.map"
+    "main.4c7b01f6.css.map": "/ghallab/static/css/main.4c7b01f6.css.map",
+    "main.6eb3f667.js.map": "/ghallab/static/js/main.6eb3f667.js.map"
   },
   "entrypoints": [
-    "static/css/main.d573f134.css",
-    "static/js/main.0ec8fd7a.js"
+    "static/css/main.4c7b01f6.css",
+    "static/js/main.6eb3f667.js"
   ]
 }
