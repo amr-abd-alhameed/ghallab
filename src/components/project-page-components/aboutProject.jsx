@@ -13,6 +13,8 @@ import { animationVariants } from "../../constants/animationVariants";
 import { motion } from "framer-motion";
 import { scrollToTop } from "../../constants/scrollToTop";
 import { useEffect } from "react";
+import hero from "../../assets/images/maqbara/w21.jpg";
+import bg from "../../assets/images/hero-bg-image.jpg";
 const AboutProject = ({ heroImageSrc, attachment }) => {
   const param = useParams();
   const project = showCase[param.id - 1];
@@ -22,7 +24,7 @@ const AboutProject = ({ heroImageSrc, attachment }) => {
   return (
     <div className="overflow-hidden">
       <div
-        style={{ backgroundImage: "url(" + heroImageSrc + ")" }}
+        style={{ backgroundImage: "url(" + bg + ")" }}
         className={`h-screen relative ${attachment}  bg-top bg-no-repeat bg-cover`}
       >
         <div className="absolute top-0 right-0 bottom-0 left-0 flex justify-center items-center bg-black/50">
@@ -52,7 +54,7 @@ const AboutProject = ({ heroImageSrc, attachment }) => {
           <p className="text-xl">{project.shortDescription}</p>
           <Link to={"/contact"} onClick={scrollToTop}>
             <Button
-              content={"Contact Us"}
+              content={"تواصل معنا"}
               fontSize={"text-xl max-md:text-xl"}
               padding={"px-4 py-2"}
             />
@@ -66,24 +68,29 @@ const AboutProject = ({ heroImageSrc, attachment }) => {
           className="flex flex-col gap-4"
         >
           <div className="">
-            <h2 className="text-xl mb-2 ">Client</h2>
-            <h3 className="text-xl opacity-80">Insight Studio</h3>
+            <h2 className="text-xl mb-2 ">مسؤل خدمة العملاء</h2>
+            <h3 className="text-xl opacity-80">م/ محمد جمعة</h3>
+          </div>
+
+          <div className="">
+            <h2 className="text-xl mb-2 ">
+              لمزيد من التفاصيل يرجى الاتصال على الرقم
+            </h2>
+            <h3 className="text-xl opacity-80">1010757651</h3>
           </div>
           <div className="">
-            <h2 className="text-xl mb-2 ">Date</h2>
+            <h2 className="text-xl mb-2 ">تاريخ انشاء المقبرة</h2>
             <h3 className="text-xl opacity-80">December 7, 2022</h3>
           </div>
           <div className="">
-            <h2 className="text-xl mb-2 ">Services</h2>
-            <h3 className="text-xl opacity-80">Art Direction, Website</h3>
-          </div>
-          <div className="">
-            <h2 className="text-xl mb-2 ">Share on</h2>
+            <h2 className="text-xl mb-2 ">شارك مع اصدقائك على</h2>
             <div className="text-xl text-red-500 flex gap-3">
               <a
                 style={{ borderWidth: 1 }}
                 className="w-12 h-12  border-red-500 rounded-full  flex justify-center  items-center"
-                href=""
+                href="https://www.facebook.com/ghallab12345.gmail?mibextid=qi2Omg&rdid=zVFVpsIdJsarBobO&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2FwYhpN9nJjuX4V3qN%2F%3Fmibextid%3Dqi2Omg"
+                target="_blank"
+                rel="noreferrer"
               >
                 <FaFacebookF />
               </a>
@@ -115,59 +122,51 @@ const AboutProject = ({ heroImageSrc, attachment }) => {
         className="text-lg mx-auto p-10 max-sm:px-5 max-sm:pt-5  max-sm:mb-8 mb-20"
       >
         <p>
-          عمرو ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam
-          dolorum enim, veniam totam eius tempora facere assumenda! Iste quod,
-          assumenda totam fugiat omnis, similique maxime magnam nulla inventore
-          et suscipit sapiente? Exercitationem assumenda mollitia neque quaerat
-          blanditiis et consectetur necessitatibus.
+          التي تتميز بمستواها العالي التابعة للمحافظة وموثقة في الشهر العقاري
+          ومحاطة بأسوار عالية مرسوم عليها رسومات اسلامية وآيات قرآنية وفيها
+          أشجار وزهور بألوان جذابة، حتى تستطيع تنقية الجو من الملوثات وتحوله إلى
+          جو نقي خالي من الملوثات والأجمل من كل هذا أنها موجودة بالقرب من
+          المناطق الحيوية والاستثمارية مما يزيد سعر المتر فيها يومًا بعد يوم
+          وبالتالي ستحصل بعد شراء مدافن التابعة للجهاز المحافظة عن طريق شركة
+          العربي للمقابر على أفضل عائد استثماري، كما أنك ستزيد من خصوصية المكان
+          وتستطيع زيارات المتوفى وقراءة له الفاتحة في أي وقت تريده ولا تقلق من
+          الجلوس لأن مقابر ومدافن التي يتم شرائها من العربي للمقابر سوف يتم
+          تخصيص أماكن للجلوس فيها حتى تستطيع الجلوس بالقرب من أمواتك الغاليين
+          وقراءة الفاتحة والقرآن الكريم لهم والإستمتاع بالهدوء والسكينة والجو
+          النقي، كما توفر الشركة!
         </p>
         <div className="p-5 px-10 max-sm:px-4">
           <h2 className="text-2xl text-center font-semibold p-5 max-sm:p-3 border-l-4 border-red-500">
-            Recognised and awarded on multiple occasions for producing
-            consistently outstanding products
+            ايه اللي يميز موقع غلّاب عن غيره
           </h2>
         </div>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis saepe
-          iste sed quibusdam ad voluptatem optio? Soluta veritatis dicta
-          consectetur numquam quibusdam voluptate est voluptatum tenetur?
-          Debitis cum quo nostrum suscipit qui id odio, doloribus voluptates
-          vero vitae quidem facilis cupiditate libero minima impedit quod natus
-          expedita quibusdam necessitatibus sapiente ratione pariatur, animi
-          error. Excepturi voluptates minus iusto explicabo assumenda suscipit,
-          et laboriosam nemo, quia blanditiis aut atque exercitationem dolorem.
+          أسعارنا بسيطة للغاية متوافقة مع معظم الفئات والأفضل من كل ذلك أن شركة
+          العربي للمقابر تعتبر من أفضل شركات المقاولات التي تعمل في بيع وشراء
+          مقابر بمحافظة القاهرة التابعة لجهاز المدينة الموجود فيها مقابر ومدافن
+          وليس فقط بل يوجد خدمات أخرى كثيرة مثل تقديم أسعار بسيطة تتناسب مع معظم
+          الفئات في معظم أنحاء الجمهورية فهي لديها مقابر مدينه العبور و السلام
+          طريق بلبيس و مدافن ٦ اكتوبر طريق الفيوم و طريق الواحات و مدافن وادي
+          الراحة مقابر صندوق اسكان القوات المسلحه الجبل الاحمر المصممة على أحدث
+          مستوى ومحاطة بأسوار عالية وبوابة حديدية جميع مقابر و مدافن متخصص لها
+          تربي للدفن بالطرق الشرعية و حراسة مؤمنة خلال 24 ساعة يتم نزول خصومات
+          تصل ما بين 30 إلى 50% على معظم مقابر بمحافظة القاهرة حتى يستفيد معظم
+          الفئات بالأسعار المميزة و يستطيعون شراء مدافن في أي مكان يريدونه في
+          معظم الجمهورية مثل
         </p>
         <div className="flex flex-col gap-1 mt-4">
-          <h2 className="text-2xl font-semibold">
-            The path towards customer-centricity
-          </h2>
+          <h2 className="text-2xl font-semibold">رضا العميل أولويتُنْا</h2>
           <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus
-            asperiores quidem maiores odio quaerat totam expedita reiciendis,
-            nobis ducimus eius, mollitia eaque esse dignissimos ipsum ex sit
-            laudantium tempore! Illo velit deserunt nulla hic modi rem
-            architecto nesciunt cum magnam, optio, dolore aut porro vel
-            voluptatibus eius sed inventore ad dignissimos perferendis error
-            ipsam, in unde consequuntur? Totam incidunt nulla, odit repellendus
-            doloribus numquam error commodi laboriosam, facilis vel quo quaerat
-            repudiandae earum. Distinctio at voluptatem, magni blanditiis
-            pariatur deserunt nobis modi quaerat voluptates sit. Quam dolores
-            quos nihil tenetur eos vero autem sint dolorem eius. Tempora
-            molestiae earum ducimus?
-          </p>
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus
-            asperiores quidem maiores odio quaerat totam expedita reiciendis,
-            nobis ducimus eius, mollitia eaque esse dignissimos ipsum ex sit
-            laudantium tempore! Illo velit deserunt nulla hic modi rem
-            architecto nesciunt cum magnam, optio, dolore aut porro vel
-            voluptatibus eius sed inventore ad dignissimos perferendis error
-            ipsam, in unde consequuntur? Totam incidunt nulla, odit repellendus
-            doloribus numquam error commodi laboriosam, facilis vel quo quaerat
-            repudiandae earum. Distinctio at voluptatem, magni blanditiis
-            pariatur deserunt nobis modi quaerat voluptates sit. Quam dolores
-            quos nihil tenetur eos vero autem sint dolorem eius. Tempora
-            molestiae earum ducimus?
+            يمكن أن تختلف اسعار مدافن للبيع والمقابر من مكان إلى آخر من حيث
+            المساحات او شعبية او ريفية حيث يقل بها الأسعار مقارنة بالمناطق
+            الحديثة مثل الشروق ومدينة بدر والقاهرة الجديدة وغيرها، لذلك ستكون
+            شركتنا الاختيار الأمثل لك لأنها ستعمل على توفير افضل الاسعار واعلى
+            مستوى من تشطيبات المقابر من الداخل والخارج مع توفير مساحات متنوعة
+            على حسب تفضيلات العميل، تختلف احياناً أسعار المقابر من حيث التغييرات
+            الاقتصادية بشكل مستمر، قُم الآن بالاتصال بنا لمعرفة التفاصيل الهامة
+            حول شراء المقابر و سنحدد لك جميع الأماكن الخاصة بنا والكثير من
+            العروض والخصومات على جميع اسعارنا وسنقوم بالوصول إلى السعر المناسب
+            للميزانية الخاصة بك.
           </p>
         </div>
       </motion.div>
@@ -201,7 +200,7 @@ const AboutProject = ({ heroImageSrc, attachment }) => {
           className="w-2/5  hover:text-red-500  py-7 flex justify-center items-center gap-3"
         >
           <FaArrowLeft className="prev-arrow transition-all" />
-          <p className="transition-all">Prev post</p>
+          <p className="transition-all">المنشور السابق</p>
         </Link>
         <div className="w-1/5 py-7 border-l-2 border-r-2 flex justify-center items-center">
           <FaWindows />
@@ -212,7 +211,7 @@ const AboutProject = ({ heroImageSrc, attachment }) => {
           id="next-btn"
           className="w-2/5  hover:text-red-500  py-7 flex justify-center items-center gap-3"
         >
-          <p className="transition-all">Next post</p>
+          <p className="transition-all">المقبرة الاتية</p>
           <FaArrowRight className="next-arrow transition-all " />
         </Link>
       </div>

@@ -1,5 +1,4 @@
-import logo1 from "../assets/images/maqbara/m14.jpg";
-import logo11 from "../assets/images/maqbara/w23.jpg";
+import logo1 from "../assets/images/maqbara/m14.jpg";import logo11 from "../assets/images/maqbara/w23.jpg";
 import logo12 from "../assets/images/maqbara/w25.jpg";
 import logo13 from "../assets/images/maqbara/w26.jpg";
 
@@ -30,7 +29,7 @@ import logo63 from "../assets/images/maqbara/m21.jpg";
 export const showCase = [
   {
     id: 1,
-    city: "اكتوبر 6",
+    city: "مقابر 6 اكتوبر ",
     shortDescription:
       "غلاب: المكان الذي يضمن لك راحة البال في وداع أحبائك. نقدم لك مجموعة متنوعة من المقابر، تُلبّي احتياجاتك و رغباتك.",
     description:
@@ -42,7 +41,7 @@ export const showCase = [
   },
   {
     id: 2,
-    city: "السادات",
+    city: "مقابر السادات",
     shortDescription:
       "غَلاَب: الراحة الأبدية لأحبائك في مُقرّ يليق بِهم.استكشف مُجموعة مُختارة من المقابر ، و أحجز ما يناسب احتياجاتك",
 
@@ -55,7 +54,7 @@ export const showCase = [
   },
   {
     id: 3,
-    city: "الرحاب",
+    city: "مقابر الرحاب",
     shortDescription:
       "غَلاَب: مكان يُقدّر حُبّك لِأحبائك و يُخَلّد ذكراهم بِشكل لائق.نُقدّم لك مُجموعة مُتنوّعة من خدمات المقبرة ، لِضمان راحة بالك.",
 
@@ -68,7 +67,7 @@ export const showCase = [
   },
   {
     id: 4,
-    city: "التجمع",
+    city: "مقابر التجمع",
     shortDescription:
       "غَلاَب: ضمان راحة البال لِمن تُحب في مُقرّهم الأخير.تعرّف على مُجموعة واسعة من الخدمات المُتاحة ، و اختار الأنسب لِاحتياجاتك.",
 
@@ -94,7 +93,7 @@ export const showCase = [
   },
   {
     id: 6,
-    city: "الشيخ زايد",
+    city: "مقابر الشيخ زايد",
     shortDescription:
       "الموقع الأفضل لاختيار مقبرة مميزة في مصر. لدينا مجموعة متنوعة من المقابر الفاخرة والمتوسطة بسعر مناسب، مع ضمان راحة بال تامة في اختيار مأوى لِمن تُحب.",
     description:

@@ -1,4 +1,5 @@
-import logo1 from "../assets/images/maqbara/w21.jpg";import logo12 from "../assets/images/maqbara/w25.jpg";
+import logo1 from "../assets/images/maqbara/w21.jpg";
+import logo12 from "../assets/images/maqbara/w25.jpg";
 import logo13 from "../assets/images/maqbara/w26.jpg";
 import logo21 from "../assets/images/maqbara/w19.jpg";
 
@@ -34,7 +35,7 @@ export const rentHouses = [
     vip: "featured",
     mainImage: logo1,
     moreImages: [logo1, logo12, logo13, logo21],
-    name: "العاشر",
+    name: "مقابر العاشر",
     address: "مدينة العاشر من رمضان بالقرب من القاهرة",
     price: 130000,
     details: [
@@ -56,7 +57,7 @@ export const rentHouses = [
     vip: "featured",
     mainImage: logo2,
     moreImages: [logo2, logo31, logo32, logo23],
-    name: "السادات",
+    name: "مقابر السادات",
     address: "السادات مصر",
     price: 100000,
     details: [
@@ -78,7 +79,7 @@ export const rentHouses = [
     vip: "popular",
     mainImage: logo4,
     moreImages: [logo4, logo43, logo51, logo52],
-    name: "اكتوبر",
+    name: "مقابر 6 اكتوبر",
     address: "مدينة السادس من اكتوبر",
     price: 50000,
     details: [
@@ -100,8 +101,8 @@ export const rentHouses = [
     vip: "popular",
     mainImage: logo5,
     moreImages: [logo5, logo41, logo42, logo53],
-    name: "الرحاب",
-    address: "مدينة الرحاب",
+    name: "مقابر 15 مايو",
+    address: "مدينة 15 مايو",
     price: 135000,
     details: [
       "Location: Isra Tower",
@@ -144,7 +145,7 @@ export const rentHouses = [
     vip: "featured",
     mainImage: logo3,
     moreImages: [logo3, logo40, logo50, logo60],
-    name: "اكتوبر",
+    name: "مقابر 6 اكتوبر",
     address: "السادس من اكتوبر",
     price: 120000,
     details: [
