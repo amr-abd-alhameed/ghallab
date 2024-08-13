@@ -1,11 +1,10 @@
-import React, { useContext, useEffect, useState } from "react";// import Button from "../buttons-components/solidbutton";
+import React, { useContext, useEffect, useState } from "react";
 import {
   NumberInput,
   NumberInputField,
   NumberInputStepper,
   NumberIncrementStepper,
   NumberDecrementStepper,
-  Button,
 } from "@chakra-ui/react";
 import ImageSlider from "./imageSlider";
 import { CartContext } from "../../context/cartContext";
@@ -90,6 +89,7 @@ const Product = ({
                   className="w-full h-[500px] max-md:h-[400px] max-sm:h-[300px] object-cover"
                   src={e}
                   alt={e}
+                  loading="lazy"
                 />
               </motion.div>
             );
@@ -114,27 +114,7 @@ const Product = ({
             <div className="flex flex-col gap-2">
               <h2 className="text-xl text-red-500 font-semibold">Quantity</h2>
 
-              <NumberInput
-                borderColor={"#696969"}
-                focusBorderColor="#a7a7a7"
-                _placeholder={{ color: "#696969" }}
-                variant={"flushed"}
-                min={1}
-                id="inp"
-                size={"lg"}
-                className="mt-4 max-lg:w-72 max-sm:w-full"
-                value={inpt}
-                onChange={(e) => {
-                  setInpt(Number(e));
-                }}
-              >
-                <NumberInputField fontSize={"xl"} paddingX={"2"} />
-                <NumberInputStepper>
-                  <NumberIncrementStepper />
-                  <NumberDecrementStepper />
-                </NumberInputStepper>
-              </NumberInput>
-              <Button
+              {/* <Button
                 // _hover={{ borderColor: "#d5515e" }}
                 _hover={{ backgroundColor: "white", color: "#d5515e" }}
                 backgroundColor={"#d5515e"}
@@ -148,7 +128,7 @@ const Product = ({
                 className="mt-4 max-lg:w-72 max-sm:w-full"
               >
                 Add to Cart
-              </Button>
+              </Button> */}
             </div>
             <div className="flex text-xl flex-col gap-2">
               <h2 className=" text-red-500 font-semibold">Details</h2>
